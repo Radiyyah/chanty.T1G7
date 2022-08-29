@@ -162,6 +162,7 @@ body{
 /* get-more-work-done-together styling section starts */
 .get-more-work-done-together{
     padding: 10px;
+    display: none;
 }
 .get-more{
     color: var(--White);
