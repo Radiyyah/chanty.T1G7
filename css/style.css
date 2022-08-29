@@ -27,6 +27,9 @@ body{
 /* HEADER STYLING STARTS*/
 /* navbar styling starts */
 /* .nav-bar-1 starts */
+/* nav{
+    background-color: var(--Blue);
+}
 .nav-bar-1{
     background-color: var(--LightYellow);
     padding: 10px 15px;
@@ -57,13 +60,17 @@ body{
 }
 .cancel{
     padding-top: 20px;
-}
+} */
 /* .nav-bar-1 ends */
 
 /* nav-bar-2 starts */
-.nav-bar-2{
+/* .nav-bar-2{
     background-color: var(--Blue);
     padding: 10px 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
 }
 .chanty-logo-with-text{
     display:none;
@@ -73,25 +80,122 @@ body{
 }
 .hamburger{
     display: block;
-    cursor: pointer;
-    width: 60px;
-    height: 60px;
-    padding: 30px;
-    margin: 0 auto;
-    /* background-color: black; */
 }
+.naMenu{
+    width: 330px;
+    margin-top:-10px;
+    position: relative;
+    overflow: hidden;
+}
+.nav-menu{
+    display:none;
+    background-color: var(--White);
+    padding: 20px;
+}
+.nav-menu li{
+    list-style-type:none;
+    border-bottom: 1px groove var(--Grayish);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.nav-menu  a{
+    text-decoration: none;
+    color: var(--VeryGrayish);
+}
+.nav-item-1{
+    display:flex;
+    justify-content:space-between;
+}
+.nav-item-1 a{
+    margin-top: 6px;
+}
+.nav-item-3{
+    display: flex;
+    justify-content:space-between;
+}
+.nav-menu .nav-item-6{
+    border-bottom: none;
+    padding-bottom:25px;
+}
+.nav-menu .nav-item-6 a{
+    color: var(--Green);
+    font-weight:700
+}
+.nav-menu .nav-item-7{
+    border-bottom: none;
+}
+.nav-menu .nav-item-7 button{
+    padding: 12px;
+    width: 100%;
+    border-radius: 10px;
+    border:1px solid var(--Green);
+    background-color:transparent;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--Green);
+}
+.nav-menu .nav-item-8{
+    border-bottom: none;
+}
+.nav-menu .nav-item-8 button{
+    padding: 12px;
+    width: 100%;
+    border-radius: 10px;
+    border:1px solid var(--White);
+    background-color:var(--Green);
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--White);
+}
+
+
 .bar{
     display:block;
     width: 26px;
     height:2px;
     margin: 5px auto;
-    /* color: var(--White); */
-    border: 2px solid;
-}
+    border: 1px solid var(--White);
+} */
 /* nav-bar-2 ends */
-
-
 /* navbar styling end */
+
+/* get-more-work-done-together styling section starts */
+.get-more-work-done-together{
+    padding: 10px;
+}
+.get-more{
+    color: var(--White);
+    font-size: 20px;
+    padding-bottom:15px;
+    /* text-decoration: none; */
+}
+.join-chanty{
+    color: var(--Grayish);
+    font-size: 18px;
+    padding-bottom:20px;
+    
+}
+.button-free-sign-up button{
+    width: 100%;
+    background-color: var(--Green);
+    border-radius: 10px;
+    padding: 13px;
+    color: var(--White);
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+}
+.chanty-to-be-more-productive{
+    color: var(--White);
+    font-size: 24px;
+    /* width: 300px; */
+    font-weight: 600;
+    margin: 0 auto;
+    text-align: center;
+}
+/* get-more-work-done-together styling section ends */
+
+
 /* HEADER SYTLING ENDS */
 
 
