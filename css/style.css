@@ -36,17 +36,18 @@ body{
     padding: 30px;
     width: 550px;
     height: 500px;
-    border: 1px solid black;
+    border: 1px solid hsl(217, 82%, 89%);
+    border-radius: 10px;
     margin-bottom: 40px;
     
   }
-  
+
   .profile{
     position: absolute;
     left: 30%;
     bottom: 0;
   }
-  .profile h2{
+  .profile h3{
     position: relative;
     text-align: center;
   }
@@ -54,6 +55,7 @@ body{
     font-size: 12px;
     font-weight: 100;
     text-align: center;
+    text-shadow: 1px 1px hsl(217, 82%, 89%);
   }
   .profile img{
     position: relative;
