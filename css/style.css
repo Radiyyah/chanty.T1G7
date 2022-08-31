@@ -19,6 +19,9 @@
     padding: 0;
     box-sizing:border-box;
 }
+body{
+    font-family: 'Inter', sans-serif;
+}
 
 body{
     font-family: 'Inter', sans-serif;
@@ -202,6 +205,59 @@ body{
 
 
 /* MAIN STYLING STARTS */
+
+/* Styling the testimonial header */
+.testimonial h1{
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+}
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  .slideshow-container p:first-child{
+    text-align: center;
+    line-height: 30px;
+  }
+  #card{
+    position: relative;
+    padding: 30px;
+    width: 550px;
+    height: 500px;
+    border: 1px solid black;
+    margin-bottom: 40px;
+    
+  }
+  
+  .profile{
+    position: absolute;
+    left: 30%;
+    bottom: 0;
+  }
+  .profile h2{
+    position: relative;
+    text-align: center;
+  }
+  .profile span{
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+  }
+  .profile img{
+    position: relative;
+    left: 35px;
+  }
+  .logo{
+    margin: 10px 0;
+  }
+  
+  
+  
+  
+  /* Hide the div by default */
 
 /* MAIN STYLING ENDS */
 
