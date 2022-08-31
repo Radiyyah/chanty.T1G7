@@ -122,6 +122,52 @@ body{
     width: 150px;
     margin: 40px;
   }
+  .section-integrations{
+    background-color: #f4f8fe;
+    background-image: url(images/svg/integrations-bg.svg);
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 59.3rem;
+    padding-top: 2.7rem;
+    position: relative;
+    z-index: 0;
+  }
+  .new-container{
+    display: flex;
+    justify-content: center;
+  }
+  .new-container h2{
+    text-align: center;
+    font-size: 32px;
+    padding: 0px 0px 0px 22px;
+    font-family: 'Inter_bold', Arial, Helvetica, sans-serif;
+  }
+  .new-container p{
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+    font-family: 'Inter_bold', Arial, Helvetica, sans-serif;
+    margin: 20px 57px;
+    padding: 0px 0px 32px;
+    width: 550px;
+    line-height: 35px;
+
+  }
+  .new-container a{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 180px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    padding: 15px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+  }
 
 
 /* MAIN STYLING ENDS */
