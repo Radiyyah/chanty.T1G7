@@ -124,7 +124,7 @@ body{
   }
   .section-integrations{
     background-color: #f4f8fe;
-    background-image: url(asset\images/svg/integrations-bg.svg);
+    background-image: url(/asset/images/svg/integrations-bg.svg);
     background-position: center 0;
     background-repeat: no-repeat;
     background-size: contain;
