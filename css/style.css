@@ -286,7 +286,12 @@
 }
 /* get-more-work-done-together styling section ends */
 
-
+.paterners-logos{
+    background-color:var(--Blue);
+}
+.paterners-logos img{
+    width:60px
+}
 /* HEADER SYTLING ENDS */
 
 
