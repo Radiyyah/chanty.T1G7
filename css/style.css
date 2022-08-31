@@ -6,6 +6,21 @@
 body{
     font-family: 'Inter', sans-serif;
 }
+:root{
+    --darkGrayishBlue: hsl(227, 12%, 61%);
+    --veryPaleRed: hsl(13, 100%, 96%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+    --blue: hsl(217, 84%, 56%);
+    --green: hsl(147, 65%, 44%);
+    --grayish: hsl(216, 84%, 98%);
+    --veryLightBlue: hsl(217, 82%, 89%);
+    --veryGrayish: hsl(208, 18%, 48%);
+    --orange: hsl(26, 100%, 50%);
+    --lightBrown: hsl(24, 50%, 51%);
+    --white: hsl(0, 0%, 100%);
+    --deepBrown: hsl(23, 100%, 46%);
+    --lightYellow: hsl(43, 100%, 82%);
+}
 
 /* HEADER STYLING STARTS*/
 
@@ -17,28 +32,43 @@ body{
 
 /* Styling the testimonial header */
 .testimonial h1{
+    position: sticky;
     text-align: center;
     font-size: 30px;
     margin: 30px;
 }
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1000px;
+    position: relative;
+    display: flex;
+    max-width: 1130px;
     position: relative;
     margin: auto;
+    overflow: hidden;
   }
   .slideshow-container p:first-child{
     text-align: center;
     line-height: 30px;
   }
+  /* Hide the div by default */
+  .section1{
+    display: flex;
+  }
+  .section2{
+    display: flex;
+  }
+  .section3{
+    display: flex;
+  }
   #card{
+    /* display: none; */
     position: relative;
     padding: 30px;
     width: 550px;
     height: 500px;
-    border: 1px solid hsl(217, 82%, 89%);
+    border: 1px solid var(--veryGrayish);
     border-radius: 10px;
-    margin-bottom: 40px;
+    margin: 20px 20px 20px 0;
     
   }
 
@@ -64,11 +94,35 @@ body{
   .logo{
     margin: 10px 0;
   }
-  
-  
-  
-  
-  /* Hide the div by default */
+  /* The rectangle for changing the slides  */
+  .dot{
+    position: relative;
+    bottom: 10px;
+    cursor: pointer;
+    height: 2px;
+    width: 30px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active, .dot:hover {
+    background-color: var(--blue);
+  }
+
+  /* section containing crozdesk and high perform winter logo */
+  .logo-container{
+    display: flex;
+    justify-content: center;
+
+  }
+  .logo-container img{
+    height: 150px;
+    width: 150px;
+    margin: 40px;
+  }
+
 
 /* MAIN STYLING ENDS */
 
