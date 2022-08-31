@@ -165,11 +165,11 @@ body{
 /* get-more-work-done-together styling section starts */
 .get-more-work-done-together{
     padding: 10px;
-    display: none;
+    background-color: var(--Blue);
 }
 .get-more{
     color: var(--White);
-    font-size: 20px;
+    font-size: 15px;
     padding-bottom:15px;
     /* text-decoration: none; */
 }
@@ -194,7 +194,7 @@ body{
     font-size: 24px;
     /* width: 300px; */
     font-weight: 600;
-    margin: 0 auto;
+    padding-top: 70px;
     text-align: center;
 }
 /* get-more-work-done-together styling section ends */
