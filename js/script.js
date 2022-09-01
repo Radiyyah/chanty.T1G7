@@ -13,6 +13,9 @@ function changeContainer(){
     
 }
 changeContainer();
+if(i = container){
+    addEventListener(click, changeContainer);
+}
 
 // document.slide.src = container[i];
 
