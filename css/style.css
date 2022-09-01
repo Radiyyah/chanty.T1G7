@@ -260,6 +260,22 @@
     padding-bottom:15px;
     /* text-decoration: none; */
 }
+
+:root{
+    --darkGrayishBlue: hsl(227, 12%, 61%);
+    --veryPaleRed: hsl(13, 100%, 96%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+    --blue: hsl(217, 84%, 56%);
+    --green: hsl(147, 65%, 44%);
+    --grayish: hsl(216, 84%, 98%);
+    --veryLightBlue: hsl(217, 82%, 89%);
+    --veryGrayish: hsl(208, 18%, 48%);
+    --orange: hsl(26, 100%, 50%);
+    --lightBrown: hsl(24, 50%, 51%);
+    --white: hsl(0, 0%, 100%);
+    --deepBrown: hsl(23, 100%, 46%);
+    --lightYellow: hsl(43, 100%, 82%);
+}
 .join-chanty{
     color: var(--Grayish);
     font-size: 18px;
@@ -285,6 +301,7 @@
     text-align: center;
 }
 /* get-more-work-done-together styling section ends */
+
 
 .paterners-logos{
     background-color:var(--Blue);
@@ -452,36 +469,52 @@ div .book-a-demo{
  /*  free option ends  */
 /* Styling the testimonial header */
 .testimonial h1{
+    position: sticky;
     text-align: center;
     font-size: 30px;
     margin: 30px;
 }
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1000px;
+    position: relative;
+    display: flex;
+    max-width: 1130px;
     position: relative;
     margin: auto;
+    overflow: hidden;
   }
   .slideshow-container p:first-child{
     text-align: center;
     line-height: 30px;
   }
+  /* Hide the div by default */
+  .section1{
+    display: flex;
+  }
+  .section2{
+    display: flex;
+  }
+  .section3{
+    display: flex;
+  }
   #card{
+    /* display: none; */
     position: relative;
     padding: 30px;
     width: 550px;
     height: 500px;
-    border: 1px solid black;
-    margin-bottom: 40px;
+    border: 1px solid var(--veryGrayish);
+    border-radius: 10px;
+    margin: 20px 20px 20px 0;
     
   }
-  
+
   .profile{
     position: absolute;
     left: 30%;
     bottom: 0;
   }
-  .profile h2{
+  .profile h3{
     position: relative;
     text-align: center;
   }
@@ -489,6 +522,7 @@ div .book-a-demo{
     font-size: 12px;
     font-weight: 100;
     text-align: center;
+    text-shadow: 1px 1px hsl(217, 82%, 89%);
   }
   .profile img{
     position: relative;
@@ -497,11 +531,81 @@ div .book-a-demo{
   .logo{
     margin: 10px 0;
   }
-  
-  
-  
-  
-  /* Hide the div by default */
+  /* The rectangle for changing the slides  */
+  .dot{
+    position: relative;
+    bottom: 10px;
+    cursor: pointer;
+    height: 2px;
+    width: 30px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active, .dot:hover {
+    background-color: var(--blue);
+  }
+
+  /* section containing crozdesk and high perform winter logo */
+  .logo-container{
+    display: flex;
+    justify-content: center;
+
+  }
+  .logo-container img{
+    height: 150px;
+    width: 150px;
+    margin: 40px;
+  }
+  .section-integrations{
+    background-color: #f4f8fe;
+    background-image: url(/asset/images/svg/integrations-bg.svg);
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 59.3rem;
+    padding-top: 2.7rem;
+    position: relative;
+    z-index: 0;
+  }
+  .new-container{
+    display: flex;
+    justify-content: center;
+  }
+  .new-container h2{
+    text-align: center;
+    font-size: 32px;
+    padding: 0px 0px 0px 22px;
+    font-family: 'Inter_bold', Arial, Helvetica, sans-serif;
+  }
+  .new-container p{
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+    font-family: 'Inter_bold', Arial, Helvetica, sans-serif;
+    margin: 20px 57px;
+    padding: 0px 0px 32px;
+    width: 550px;
+    line-height: 35px;
+
+  }
+  .new-container a{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 180px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    padding: 15px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+  }
+
 
 /* MAIN STYLING ENDS */
 
