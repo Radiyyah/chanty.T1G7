@@ -199,12 +199,50 @@ body{
 }
 /* get-more-work-done-together styling section ends */
 
+
+/* paterners-logos starts */
 .paterners-logos{
     background-color:var(--Blue);
+    display: grid;
+    gap: 6px;
+    grid-template-areas: "a b c d" "e f g h";
+    gap: 1px;
+    padding: 40px 35px 20px 20px;
+    
 }
+
 .paterners-logos img{
-    width:60px
+    width:60px;
+    height:60px;
+    margin-left:10px ;
 }
+.oracle-log{
+    grid-area: a;
+}
+
+.tata-logo{
+    grid-area: b;
+}
+.nasa-logo{
+    grid-area: c;
+}
+.manchester-logo{
+    grid-area: d;
+}
+.salesforce-logo{
+    grid-area: e;
+}
+.govthech{
+    grid-area:f;
+}
+.mit-logo{
+    grid-area: g;
+}
+.nike-logo{
+    grid-area: h;
+}
+
+/* paterners-logos ends */
 /* HEADER SYTLING ENDS */
 
 
