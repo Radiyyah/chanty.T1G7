@@ -30,22 +30,7 @@
     nav{
         background-color: var(--Blue);
     }
-    .scroll-nav{
-        background-color: red;
-    }
-    .scroll-logo{
-        width: 25px;
-        margin: 20px 10px;
-    }
-    /* .scroll-nav{
-        position: absolute;
-        transform: translateY(150px);
-        opacity: 0;
-    }
-    .scroll-nav.active{
-        transform: translateY(0px);
-        opacity: 1;
-    } */
+    
     
     .nav-bar-1{
         background-color: var(--LightYellow);
@@ -113,7 +98,9 @@
         display: flex;
         justify-content: space-between;
     } */
-    #menu{
+
+
+    .good{
         background-color: var(--Blue);
     }
     .chanty-logo-with-text{
@@ -131,123 +118,137 @@
         border-radius: 50px 10px 50px 60px;
     }
     #icon{
-        color: white;
-        font-size: 30px;
-        line-height: 80px;
-        float: right;
-        margin-right: 10px;
+        position: absolute;
+        top: 100px;
+        right: 30px;
+        width: 60px;
+        height: 50px;
+        border-radius: 5px;
         cursor: pointer;
-        display: block;
-        font-weight: lighter;
-    }
-    /* .close img{
-        width: 6%;
-        float: right;
-        padding-top: 20px;
-        margin-right: 20px;
-        color: black;
-    } */
-    ul{
-        position: fixed;
-        width: 80%;
-        height: 120vh;
-        background-color: white;
-        top: 1px;
-        right: -100%;
-        text-align: left;
-        transition: all.5s;
-        padding-left: 20px;
-        padding-top: 10px;
-    }
-    ul li{
-        display: block;
-        margin: 20px 0;
-        line-height: 30px;
-        font-size: 18px;
-        border-bottom: 1px groove var(--Grayish);
-    }
-    ul li a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 2;
+        }
+        #icon::before{
+        content: "";
+        position: absolute;
+        width: 25px;
+        height: 2px;
+        background: white;
+        transform: translateY(-10px);
+        transition: .4s;
+        }
+        #icon::after{
+            content: "";
+            position: absolute;
+            width: 25px;
+            height: 2px;
+            background: white;
+            box-shadow: 0 10px 0 0 #fff;
+            transition: .4s;
+        }
+        .active#icon::before{
+            transform: rotate(45deg);
+            background: red;
+        }
+        .active#icon::after{
+            transform: rotate(-45deg);
+            box-shadow: none;
+            background: red;
+        
+        }
+    
+        #menu{
+            position: fixed;
+            top: 0;
+            right: -400%;
+            width: 400px;
+            height: 100vh;
+            background: rgb(50, 0, 97);
+            transition: .2s;
+        }
+        #menu ul{
+            position: relative;
+            margin-top: 40px;
+            overflow: hidden;
+        }
+        #menu ul li{
+            list-style-type: none;
+            color: white;
+            padding: 15px 20px;
+            font-size: 18px;
+            border-bottom: 1px groove var(--Grayish);
+        }
+        .active#menu{
+            left: 0;
+        }
+    #menu ul li a{
         text-decoration: none;
         color: grey;
-        border: 10px;
-        border-color: black;
     }
-    ul.show{
-        right: 0;
-    }
-    ul.remove{
-        right: 0;
-    }
-    #close-icon{
-        color: grey;
-        float: right;
-        font-size: 30px;
-        padding-top: 15px;
-        margin-right: 20px;
-        border: none;
-        background: transparent;
-    }
-    .sub-links{
+        
+        .sub-links{
+            position: absolute;
+            border-bottom: 1px groove var(--Grayish);
+            background-color: white;
+            display: none;
+        }
+        .sub-links.active{
+            display: block;
+        }
+        .sub-links > div{
+            padding: 10px;
+        }
+        .nav-3 a::before{
+        content: '';
         position: absolute;
-        border-bottom: 1px groove var(--Grayish);
-        background-color: white;
-        display: none;
-    }
-    .sub-links.active{
-        display: block;
-    }
-    .sub-links > div{
-        padding: 10px;
-    }
-    .nav-3 a::before{
-    content: '';
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    border: 2px solid #333;
-    right: 20px;
-    top: 19%;
-    z-index: 1000;
-    border-top: 2px solid #fff;
-    border-right: 2px solid #fff;
-    transform: rotate(-45deg);
-    transition: 0.5s;
-    pointer-events: none;
-    }
-    .nav-3.active::before{
-        top: 40%;
-        transform: rotate(-225deg);
-    }
-    .nav-6 a{
-        color: var(--Green);
-        font-weight:700
-    }
-    .nav-7 button{
-        border-radius: 10px;
-        border:1px solid var(--Green);
-        background-color:transparent;
-        font-weight: 700;
-        font-size: 16px;
-        color: var(--Green);
-        padding: 12px;
-        width: 80%;
-    }
-    .nav-7{
-        border-bottom: none;
-    }
-    .nav-8{
-        border-bottom: none;
-    }
-    .nav-8 button{
-        padding: 12px;
-        width: 80%;
-        border-radius: 10px;
-        border:1px solid var(--White);
-        background-color:var(--Green);
-        font-weight: 700;
-        font-size: 16px;
-        color: var(--White);
-    }
+        width: 8px;
+        height: 8px;
+        border: 2px solid #333;
+        right: 20px;
+        top: 19%;
+        z-index: 1000;
+        border-top: 2px solid #fff;
+        border-right: 2px solid #fff;
+        transform: rotate(-45deg);
+        transition: 0.5s;
+        pointer-events: none;
+        }
+        .nav-3.active::before{
+            top: 40%;
+            transform: rotate(-225deg);
+        }
+        .nav-6 a{
+            color: var(--Green);
+            font-weight:700
+        }
+        .nav-7 button{
+            border-radius: 10px;
+            border:1px solid var(--Green);
+            background-color:transparent;
+            font-weight: 700;
+            font-size: 16px;
+            color: var(--Green);
+            padding: 12px;
+            width: 80%;
+        }
+        .nav-7{
+            border-bottom: none;
+        }
+        .nav-8{
+            border-bottom: none;
+        }
+        .nav-8 button{
+            padding: 12px;
+            width: 80%;
+            border-radius: 10px;
+            border:1px solid var(--White);
+            background-color:var(--Green);
+            font-weight: 700;
+            font-size: 16px;
+            color: var(--White);
+        }
     
 /* get-more-work-done-together styling section starts */
 .get-more-work-done-together{

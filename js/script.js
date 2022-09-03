@@ -1,31 +1,50 @@
-var closebtns = document.getElementsByClassName("close");
-var i;
+// var closebtns = document.getElementsByClassName("close");
+// var i;
 
-for (i = 0; i < closebtns.length; i++) {
-  closebtns[i].addEventListener("click", function() {
-    this.parentElement.style.display = 'none';
-  });
+// for (i = 0; i < closebtns.length; i++) {
+//   closebtns[i].addEventListener("click", function() {
+//     this.parentElement.style.display = 'none';
+//   });
+// }
+// $(document).ready(function(){
+//   $('#icon').click(function(){
+//       $('ul').toggleClass('show');
+//   });
+// });
+
+// icon-section
+const icon = document.getElementById('icon');
+
+const menu = document.getElementById('menu');
+icon.onclick = function(){
+    icon.classList.toggle('active');
+    menu.classList.toggle('active');
 }
-$(document).ready(function(){
-  $('#icon').click(function(){
-      $('ul').toggleClass('show');
-  });
-});
+
+document.onclick = function(clickEvent){
+    if(clickEvent.target.id !=="menu" && 
+    clickEvent.target.id !=="icon"){
+        icon.classList.remove('active');
+        menu.classList.remove('active');
+    }
+}
+
+// communication dropdown-section 
 
 let dropdown = document.querySelector('.nav-3');
 dropdown.onclick = function(){
   dropdown.classList.toggleClass('active');
 } 
-const toggleBtn = document.querySelector('#close-icon');
-const navlist = document.querySelector('menu');
+// const toggleBtn = document.querySelector('#close-icon');
+// const navlist = document.querySelector('menu');
 
-toggleBtn.addEventListener('click', () =>{
-if(navlist.style.display === 'none') {
-  navlist.style.display ='block';
-} else {
-  navlist.style.display ='none';
-}
-});
+// toggleBtn.addEventListener('click', () =>{
+// if(navlist.style.display === 'none') {
+//   navlist.style.display ='block';
+// } else {
+//   navlist.style.display ='none';
+// }
+// });
 // const list = document.querySelector("#menu ul");
 // const forms = document.forms;
 
