@@ -261,6 +261,22 @@
     padding-bottom:15px;
     /* text-decoration: none; */
 }
+
+:root{
+    --darkGrayishBlue: hsl(227, 12%, 61%);
+    --veryPaleRed: hsl(13, 100%, 96%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+    --blue: hsl(217, 84%, 56%);
+    --green: hsl(147, 65%, 44%);
+    --grayish: hsl(216, 84%, 98%);
+    --veryLightBlue: hsl(217, 82%, 89%);
+    --veryGrayish: hsl(208, 18%, 48%);
+    --orange: hsl(26, 100%, 50%);
+    --lightBrown: hsl(24, 50%, 51%);
+    --white: hsl(0, 0%, 100%);
+    --deepBrown: hsl(23, 100%, 46%);
+    --lightYellow: hsl(43, 100%, 82%);
+}
 .join-chanty{
     color: var(--Grayish);
     font-size: 18px;
@@ -287,45 +303,256 @@
 }
 /* get-more-work-done-together styling section ends */
 
+/* paterners-logos starts */
 
+.paterners-logos{
+    background-color:var(--Blue);
+    display: grid;
+    gap: 6px;
+    grid-template-areas: "a b c d" "e f g h";
+    gap: 1px;
+    padding: 40px 35px 20px 20px;
+    
+}
+
+.paterners-logos img{
+    width:60px;
+    height:60px;
+    margin-left:10px ;
+}
+.oracle-log{
+    grid-area: a;
+}
+
+.tata-logo{
+    grid-area: b;
+}
+.nasa-logo{
+    grid-area: c;
+}
+.manchester-logo{
+    grid-area: d;
+}
+.salesforce-logo{
+    grid-area: e;
+}
+.govthech{
+    grid-area:f;
+}
+.mit-logo{
+    grid-area: g;
+}
+.nike-logo{
+    grid-area: h;
+}
+
+/* paterners-logos ends */
 /* HEADER SYTLING ENDS */
 
 
 
 /* MAIN STYLING STARTS */
 
+/* pricing section starts  */
+ .pricing-text {
+     padding: 70px 20px 20px 15px;
+ }
+ div .pricing{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    color: hsl(217, 84%, 56%);
+ }
+.pricing-text h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: hsl(211, 24%, 17%);
+}
+.pricing-text .time{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    color: hsl(208, 18%, 48%);  
+    padding: 20px 2px;
+}
+.pricing-changer{
+    position: relative;
+    display: inline-block;
+    width: 56px;
+    height: 32px;
+  }
+.pricing-changer input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .pricing-toggle {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:  hsl(217, 84%, 56%);
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+  }
+  .pricing-toggle:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 22px;
+    left: 5px;
+    bottom: 5px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  input:checked + .pricing-toggle {
+    background-color: hsl(147, 65%, 44%);
+  }
+  input:focus + .pricing-toggle {
+    box-shadow: 0 0 1px hsl(147, 65%, 44%);
+  }
+  input:checked + .pricing-toggle:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  .switch span{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 42px;
+    color: hsl(217, 84%, 56%); 
+  }
+  .switch .monthly,
+  .switch .annually{
+    margin: 20px 10px;
+  }
+ .business{
+   background-color: hsl(217, 84%, 56%);
+   color:  hsl(0, 0%, 100%);
+   padding: 20px 15px 15px 15px;
+ }
+ .business-text .business-plan{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  line-height: 25px;
+  font-size: 18px; 
+ }
+ .business-text .bus-type{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  font-size: 16px; 
+ }
+ .payment p .pay{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  line-height: 64px;
+  font-size: 48px; 
+ }
+ .payment p .duration{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  line-height: 25px;
+  font-size: 18px; 
+ }
+ .payment-specs p{
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  line-height: 40px;
+  font-size: 16px; 
+ }
+ .payment-specs ul li{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  line-height: 40px;
+  font-size: 16px; 
+ }
+ ul{
+   list-style-type: none;
+ }
+ ul li::before {
+     content: "\f00c";
+     font-family: "Font Awesome 6 Free";
+ }
+div .book-a-demo{
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(147, 65%, 44%);
+  padding: 20px 10px;
+  /* margin: 25px 10px; */
+  margin-bottom: 40px;
+}
+ /* flex starts  */
+
+ 
+ /* business option starts  */
+
+ /*  business option ends  */
+
+
+ /* free option starts  */
+
+ /*  free option ends  */
 /* Styling the testimonial header */
 .testimonial h1{
+    position: sticky;
     text-align: center;
     font-size: 30px;
     margin: 30px;
 }
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1000px;
+    position: relative;
+    display: flex;
+    max-width: 1130px;
     position: relative;
     margin: auto;
+    overflow: hidden;
   }
   .slideshow-container p:first-child{
     text-align: center;
     line-height: 30px;
   }
+  /* Hide the div by default */
+  .section1{
+    display: flex;
+  }
+  .section2{
+    display: flex;
+  }
+  .section3{
+    display: flex;
+  }
   #card{
+    /* display: none; */
     position: relative;
     padding: 30px;
     width: 550px;
     height: 500px;
-    border: 1px solid black;
-    margin-bottom: 40px;
+    border: 1px solid var(--veryGrayish);
+    border-radius: 10px;
+    margin: 20px 20px 20px 0;
     
   }
-  
+
   .profile{
     position: absolute;
     left: 30%;
     bottom: 0;
   }
-  .profile h2{
+  .profile h3{
     position: relative;
     text-align: center;
   }
@@ -333,6 +560,7 @@
     font-size: 12px;
     font-weight: 100;
     text-align: center;
+    text-shadow: 1px 1px hsl(217, 82%, 89%);
   }
   .profile img{
     position: relative;
@@ -341,15 +569,218 @@
   .logo{
     margin: 10px 0;
   }
+  /* The rectangle for changing the slides  */
+  .dot{
+    position: relative;
+    bottom: 10px;
+    cursor: pointer;
+    height: 2px;
+    width: 30px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active, .dot:hover {
+    background-color: var(--blue);
+  }
+
+  /* section containing crozdesk and high perform winter logo */
+  .logo-container{
+    display: flex;
+    justify-content: center;
+
+  }
+  .logo-container img{
+    height: 150px;
+    width: 150px;
+    margin: 40px;
+  }
+  .section-integrations{
+    background-color: #f4f8fe;
+    background-image: url(/asset/images/svg/integrations-bg.svg);
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 70.3rem;
+    padding-top: 11.7rem;
+    position: relative;
+    z-index: 0;
+  }
+  .new-container{
+    display: flex;
+    justify-content: center;
+  }
+  .new-container h2{
+    text-align: center;
+    font-size: 32px;
+    padding: 0px 0px 0px 22px;
+    font-family: 'Inter_bold', Arial, Helvetica, sans-serif;
+  }
+  .new-container p{
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+    font-family: 'Inter_bold', Arial, Helvetica, sans-serif;
+    margin: 20px 57px;
+    padding: 0px 0px 32px;
+    width: 550px;
+    line-height: 35px;
+
+  }
+  .new-container a{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 180px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    padding: 15px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    transition: 300ms;
+  }
+  .new-container a:hover{
+    background-color: var(--green);
+    color: var(--white);
+  }
+  .security{
+    position: relative;
+    top: 100px;
+    margin-top: 30px;
+  }
+  .security-section1{
+    margin-bottom: 50px;
+  }
+  .security-section1 h3{
+    text-align: center;
+    margin: 20px 0 10px 0;
+    color: var(--blue);
+  }
+  .security-section1 h1{
+    padding: 0;
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+    bottom: 0;
+  }
+  .security-section1 p{
+    color: var(--darkGrayishBlue);
+    position: relative;
+    top: 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    text-shadow: 1px 1px 2px var(--veryLightBlue);
+  }
+  .security-subsec1{
+    display: flex;
+  }
+  .security-subsec2{
+    display: flex;
+  }
+  .subsec1{
+    display: flex;
+    width: 500px;
+  }
+  .subsec1 img{
+    padding: 20px;
+  }
+  .subsec1 .text{
+    padding-top: 25px;
+  }
+  .subsec2{
+    position: relative;
+    left: 20%;
+    display: flex;
+    width: 500px;
+  }
+  .subsec2 img{
+    padding: 20px;
+  }
+  .subsec2 .text{
+    padding-top: 25px;
+  }
+  .security h2{
+    margin-bottom: 10px;
+  }
+  .security p{
+    color: black;
+    opacity: .5;
+    line-height: 30px;
+    text-shadow: 1px 1px 2px var(--veryLightBlue)
+  }
+
   
   
-  
-  
-  /* Hide the div by default */
+ 
+
+/* MAIN STYLING ENDS */
+
+ 
+ /* flex ends  */
+
+
+ /* pricing section ends  */
+
+
+ /* media starts  */
+
+ /*  media ends  */
+
 
 /* MAIN STYLING ENDS */
 
 
 /* FOOTER STYLING STARTS */
+
+.footer{
+    display: flex;
+    padding-top: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 40px;
+    border-top: 0.1px solid var(--DarkGrayishBlue);
+}
+
+.container{
+    margin-right: 50px;
+
+}
+.container .logo img{
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.social{
+    display: flex;
+    margin-bottom: 10px;
+}
+.social_media:hover{
+    cursor: pointer;
+    color: var(--Blue);
+}
+
+.social_media{
+    color: var(--DarkGrayishBlue);
+    padding-right: 17px;
+}
+
+.copyright{
+    color: var(--DarkGrayishBlue);
+    font-size: 10px;
+}
+
+.container .link{
+    color: green;
+}
+
+.privacy{
+    border-top: 0.1px solid var(--DarkGrayishBlue) ;
+}
 
 /* FOOTER STYLING ENDS */
