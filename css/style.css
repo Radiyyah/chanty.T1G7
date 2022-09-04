@@ -262,7 +262,6 @@
 @media screen and (min-width:1024px) {
   .discord-get-more-flex-box{
     display:flex;
-    /* justify-content: space-between; */
   }
 
 }
@@ -291,9 +290,7 @@
 }
 @media screen and (min-width:1024px) {
   .get-more h1{
-    /* white-space: nowrap; */
     font-size: 42px;
-    /* font-weight: 300; */
   }
 }
 
@@ -328,9 +325,6 @@
 @media screen and (min-width:1024px) {
   .join-chanty{
     line-height: 30px;
-    /* font-size: 20px; */
-    /* font-weight: 400; */
-    /* padding-bottom:40px; */
   }
   .join-chanty span{
     white-space: nowrap;
@@ -342,7 +336,6 @@
     font-size: 28px;
     white-space: nowrap;
     font-weight: 300;
-    /* padding-bottom:40px; */
   }
   .join-chanty span{
     white-space: nowrap;
@@ -428,7 +421,6 @@
     width:1050px;
     height: 640px;
     margin-top:0;
-    overflow: hidden;
     position: relative;
     right: -164px;
     top: 15px;
@@ -497,8 +489,6 @@
 @media screen and (min-width:1440px){
   #paterners-logos{
     column-gap: 70px;
-    /* padding-top: 70px;
-    padding-bottom: 90px; */
   }
 }
 .paterners-logos img{
