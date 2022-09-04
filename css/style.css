@@ -251,100 +251,344 @@
     
 /* get-more-work-done-together styling section starts */
 .get-more-work-done-together{
-    padding: 10px;
-    background-color: var(--Blue);
+  padding: 10px;
+  background-color: var(--Blue);
 }
+@media screen and (min-width:768px) {
+  .get-more-work-done-together{
+    padding: 40px;
+  }
+}
+@media screen and (min-width:1024px) {
+  .discord-get-more-flex-box{
+    display:flex;
+    /* justify-content: space-between; */
+  }
+
+}
+@media screen and (min-width:1024px){
+  .get-more-work{
+    margin-top: 185px ;
+  }
+}
+@media screen and (min-width:1440px){
+  .get-more-work{
+    margin-top: 160px ;
+    padding-left:80px ;
+  }
+}
+ 
 .get-more{
-    color: var(--White);
-    font-size: 15px;
-    padding-bottom:15px;
-    /* text-decoration: none; */
+  color: var(--White);
+  font-size: 15px;
+  padding-bottom:15px;
+}
+@media screen and (min-width:768px) {
+  .get-more{
+    font-size: 20px;
+    font-weight: 300;
+  }
+}
+@media screen and (min-width:1024px) {
+  .get-more h1{
+    /* white-space: nowrap; */
+    font-size: 42px;
+    /* font-weight: 300; */
+  }
 }
 
-:root{
-    --darkGrayishBlue: hsl(227, 12%, 61%);
-    --veryPaleRed: hsl(13, 100%, 96%);
-    --VeryLightGray: hsl(0, 0%, 98%);
-    --blue: hsl(217, 84%, 56%);
-    --green: hsl(147, 65%, 44%);
-    --grayish: hsl(216, 84%, 98%);
-    --veryLightBlue: hsl(217, 82%, 89%);
-    --veryGrayish: hsl(208, 18%, 48%);
-    --orange: hsl(26, 100%, 50%);
-    --lightBrown: hsl(24, 50%, 51%);
-    --white: hsl(0, 0%, 100%);
-    --deepBrown: hsl(23, 100%, 46%);
-    --lightYellow: hsl(43, 100%, 82%);
+@media screen and (min-width:1440px) {
+  .get-more h1{
+    font-size: 70px;
+  }
+  .get-more h1 .together{
+    white-space: nowrap;
+  }
 }
+
 .join-chanty{
-    color: var(--Grayish);
-    font-size: 18px;
-    padding-bottom:20px;
+  color: var(--Grayish);
+  font-size: 18px;
+  font-weight: 300;
+  padding-bottom:20px;
     
 }
+@media screen and (min-width:768px) {
+  .join-chanty{
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom:40px;
+  }
+  .join-chanty span{
+    display: block;
+  }
+}
+
+
+@media screen and (min-width:1024px) {
+  .join-chanty{
+    line-height: 30px;
+    /* font-size: 20px; */
+    /* font-weight: 400; */
+    /* padding-bottom:40px; */
+  }
+  .join-chanty span{
+    white-space: nowrap;
+  }
+}
+@media screen and (min-width:1440px) {
+  .join-chanty{
+    line-height: 40px;
+    font-size: 28px;
+    white-space: nowrap;
+    font-weight: 300;
+    /* padding-bottom:40px; */
+  }
+  .join-chanty span{
+    white-space: nowrap;
+  }
+}
 .button-free-sign-up button{
-    width: 100%;
-    background-color: var(--Green);
-    border-radius: 10px;
-    padding: 13px;
-    color: var(--White);
-    font-weight: 700;
+  width: 100%;
+  background-color: var(--Green);
+  border-radius: 10px;
+  padding: 13px;
+  color: var(--White);
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+}
+@media screen and (min-width:768px) {
+  .button-free-sign-up button{
+    width: 20%;
+    padding: 20px;
+  }
+}
+@media screen and (min-width:1024px) {
+  .button-free-sign-up button{
+    width: 130px;
+    padding: 20px 15px;
     font-size: 16px;
-    border: none;
+  }
+}
+.discord-function{
+  display: none;
+}
+@media screen and (min-width:768px) {
+  #discord-function{
+    display: block;
+  }
+  #discord-image img{
+    width:100%;
+    margin-top:50px;
+  }
+  #austin-watkins img{
+    width: 300px;
+    position: absolute;
+    left: 20px;
+    top: 680px;
+  }
+  #task-in-main-board img{
+    width: 265px;
+    position: absolute;
+    left: 485px;
+    top: 411px;
+  }
+}
+@media screen and (min-width:1024px) {
+  #discord-function{
+    display: block;
+  }
+  #discord-image img{
+    width:929px;
+    margin-top:0;
+    position: relative;
+    right: -143px;
+    top: 15px;
+    margin-top: 20px;
+  }
+  #austin-watkins img{
+    width: 281px;
+    position: absolute;
+    left: 433px;
+    top: 604px;
+  }
+  #task-in-main-board img{
+    width: 263px;
+    position: absolute;
+    left: 443px;
+    top: 183px;
+  }
+}
+@media screen and (min-width:1440px) {
+  #discord-function{
+    display: block;
+  }
+  #discord-image img{
+    width:1050px;
+    height: 640px;
+    margin-top:0;
+    overflow: hidden;
+    position: relative;
+    right: -164px;
+    top: 15px;
+    margin-top: 30px;
+  }
+  #austin-watkins img{
+    width: 310px;
+    position: absolute;
+    left: 794px;
+    top: 641px;
+  }
+  #task-in-main-board img{
+    width: 295px;
+    position: absolute;
+    left: 832px;
+    top: 170px;
+  }
 }
 .chanty-to-be-more-productive{
-    color: var(--White);
-    font-size: 24px;
-    /* width: 300px; */
-    font-weight: 600;
+  color: var(--White);
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 60px;
+  text-align: center;
+}
+@media screen and (min-width:768px) {
+  .chanty-to-be-more-productive{ 
+    font-size: 30px; 
     padding-top: 70px;
-    text-align: center;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .chanty-to-be-more-productive{ 
+    font-size: 32px; 
+    padding-top: 160px;
+  }
+}
+@media screen and (min-width:1440px) {
+  .chanty-to-be-more-productive{ 
+    font-size: 42px;
+  }
 }
 /* get-more-work-done-together styling section ends */
 
 /* paterners-logos starts */
 
 .paterners-logos{
-    background-color:var(--Blue);
-    display: grid;
-    gap: 6px;
-    grid-template-areas: "a b c d" "e f g h";
-    gap: 1px;
-    padding: 40px 35px 20px 20px;
+  background-color:var(--Blue);
+  display: grid;
+  grid-template-areas: "a b c d" "e f g h";
+  justify-content: center;
+  padding-bottom: 40px;
+  padding-top: 30px;
     
 }
-
+@media screen and (min-width:1024px){
+  #paterners-logos{
+    display: grid;
+    grid-template-areas: "a b c d e f g h";
+    column-gap: 35px;
+    padding-top: 70px;
+    padding-bottom: 90px;
+  }
+}
+@media screen and (min-width:1440px){
+  #paterners-logos{
+    column-gap: 70px;
+    /* padding-top: 70px;
+    padding-bottom: 90px; */
+  }
+}
 .paterners-logos img{
-    width:60px;
-    height:60px;
-    margin-left:10px ;
+  width:60px;
+  margin:10px;
+  height:60px;
+  
 }
-.oracle-log{
-    grid-area: a;
+@media screen and (min-width:768px) {
+  .paterners-logos img{
+    width:70px;
+    height:70px;
+    margin-left:45px;
+    margin-right:45px;
+  
+  }
 }
-
+@media screen and (min-width:1024px) {
+  .paterners-logos img{
+    width:70px;
+    height:70px;
+    margin-left:0;
+    margin-right:0;
+  
+  }
+}
+.oracle-logo{
+  grid-area: a;
+}
+@media screen and (min-width:1024px) {
+  .oracle-logo img{
+    width: 116px;
+  }
+}
 .tata-logo{
-    grid-area: b;
+  grid-area: b;
+}
+@media screen and (min-width:1024px) {
+  .tata-logo img{
+    width: 64px;
+  }
 }
 .nasa-logo{
-    grid-area: c;
+  grid-area: c;
+}
+@media screen and (min-width:1024px) {
+  .nasa-logo img{
+    width: 100px;
+  }
 }
 .manchester-logo{
-    grid-area: d;
+  grid-area: d;
+}
+@media screen and (min-width:1024px) {
+  .manchester-logo img{
+    width: 70px;
+  }
 }
 .salesforce-logo{
-    grid-area: e;
+  grid-area: e;
+}
+@media screen and (min-width:1024px) {
+  .salesforce-logo img{
+    width: 83px;
+  }
 }
 .govthech{
-    grid-area:f;
+  grid-area: f;
+}
+@media screen and (min-width:1024px) {
+  .gov-tech-logo img{
+    width: 80px;
+  }
 }
 .mit-logo{
-    grid-area: g;
+  grid-area: g;
+}
+@media screen and (min-width:1024px) {
+  .mit-logo img{
+    width:78px
+  }
 }
 .nike-logo{
-    grid-area: h;
+  grid-area: h;
 }
-
+@media screen and (min-width:1024px) {
+  .nike-logo img{
+    width:100px;
+  }
+}
 /* paterners-logos ends */
 /* HEADER SYTLING ENDS */
 
