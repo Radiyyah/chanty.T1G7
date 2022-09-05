@@ -11,6 +11,7 @@
 
 
 /* MAIN STYLING STARTS */
+/* media query */
 .container1{
     display: flex;
     align-items: center;
@@ -40,6 +41,7 @@ border-radius: 8px;
 box-shadow: 0px 15px 50px -10px gray;
 
 }
+
 
 /* MAIN STYLING ENDS */
 
