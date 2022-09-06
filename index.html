@@ -263,114 +263,7 @@
           video participants and 49 video on screen.
         </p>
 
-    <!-- pricing section starts -->
-   <section class="pricing section">
-      <div class="price">
-      <div class="pricing-text">
-        <p class="pricing">PRICING</p>
-        <h2>Choose the plan that's right for your team</h2>
-        <p class="time">Pay monthly or annually and cancel at any time.</p>
-        
-        <div class="switch">
-          <span class="monthly">Monthly</span>
-          <label class="pricing-changer">
-            <input type="checkbox" checked>
-            <span class="pricing-toggle"></span>
-          </label>
-          <span class="annually">Annually</span>
-        </div>
-      </div>
-
-      <!-- flex starts -->
-      <div class="flex-container">
-
-        
-        <!-- business option starts -->
-        <div class="business">
-          
-          <div class="business-text">
-            <h4 class="business-plan">Business plan</h4>
-            <p class="bus-type">
-             For larger businesses and those seeking advanced administration tools
-            </p>
-          </div>
-
-         <div class="payment">
-            <p class="amount">
-              <span class="pay" id="money">$3</span>
-              <span class="duration">user/month</span>
-            </p>
-         </div>
-
-         <div class="payment-specs">
-            <p class="features">Standard features, plus:</p>
-            <ul class="freee-specs">
-              <li>Unlimited group video calls</li>
-              <li>Roles & Permissions</li>
-              <li><span id="money">$3</span> per member</li>
-              <li>3 guests per member for free</li>
-              <li><span id="money">$3</span> per multi conversation guest</li>
-              <li>Unlimited integrations</li>
-              <li>Dedicated support line</li>
-            </ul>
-            
-            <div> 
-              <a href="#" class="book-a-demo">Book a demo</a> 
-            </div>
-         </div>
-        </div>
-        <!-- business option ends -->
-
-        <!-- free option starts -->
-        <div class="free">
-          
-          <div class="free-text">
-            <h4 class="free-plan">
-              Free plan
-            </h4>
-            <p class="bus-type">
-             For small and medium-sized businesses
-            </p>
-          </div>
-
-         <div class="payment">
-            <p class="amount">
-            <span class="pay">$0</span>
-            <span class="duration">forever</span>
-            </p>
-         </div>
-
-         <div class="payment-specs">
-           <ul class="freee-specs">
-              <li>Unlimited conversations</li>
-              <li>Built-in Task management</li>
-              <li>Community support</li>
-              <li>Up to 10 team members </li>
-              <li>1 guest user</li>
-              <li>1 multi-conversation guest</li>
-              <li>Up to 10 teams integrations</li>
-           </ul>
-         </div>
-
-          <div> 
-            <a href="#" class="sign-up"> Sign Up</a> 
-          </div>
-        </div>
-        <!-- free option ends -->
-
-      </div>
-      <!-- flex-ends -->
-     </div>
-    </section>
-    <!-- pricing section ends -->
-
-    <!-- media starts-->
-    <section class="media">
-      <div class="media-voice"> 
-        <h2 class="media-text">The voice of media on how we're addressing today's biggest issues</h2>
-      </div>
-    </section>
-    <!-- media ends -->
+    
 
       <!-- Testimonials -->
       <div class="testimonial">
@@ -622,6 +515,131 @@
         </div>
       </section>
     </main>
+
+
+     <!-- pricing section starts -->
+   <section class="pricing section">
+    <div class="price">
+      <div class="pricing-text">
+        <p class="pricing">PRICING</p>
+        <h2>Choose the plan that's right for your team</h2>
+        <p class="time">Pay monthly or annually and cancel at any time.</p>
+        
+        <div class="switch">
+          <span class="monthly" id="normal">Monthly</span>
+          <label  class="pricing-changer">
+            <input type="checkbox" checked onclick="myFunction()">
+            <span class="pricing-toggle"></span>
+          </label>
+          <span class="annually chosen" id="bold">Annually</span>
+        </div>
+      </div>
+
+      <!-- flex starts -->
+      <div class="flex-container">
+
+        
+        <!-- business option starts -->
+        <div class="business">
+          
+          <div class="business-text">
+            <h4 class="business-plan">Business plan</h4>
+            <p class="bus-type">
+             For larger businesses and those seeking advanced administration tools
+            </p>
+          </div>
+
+         <div class="payment">
+          <p class="amount">
+           <span class="pay" id="money">$3</span>
+           <span class="duration">user/month</span>
+          </p>
+         </div>
+
+         <div class="payment-specs">
+           <p class="features">Standard features, plus:</p>
+           <ul class="bus-specs">
+            <li><i class="fas fa-check"></i>Unlimited group video calls</li>
+            <li><i class="fas fa-check"></i>Roles & Permissions</li>
+            <li>
+              <i class="fas fa-check"></i>
+              <span id="money2">$3</span> per member</li>
+            <li><i class="fas fa-check"></i>3 guests per member for free</li>
+            <li>
+              <i class="fas fa-check"></i>
+              <span id="money3">$3</span> per multi conversation guest
+            </li>
+            <li><i class="fas fa-check"></i>Unlimited integrations</li>
+            <li><i class="fas fa-check"></i>Dedicated support line</li>
+           </ul>
+           
+           <div class="demo-button"> <a href="#" class="book-a-demo">Book a demo</a> </div>
+           </div>
+         </div>
+
+        <!-- business option ends -->
+
+        <!-- free option starts -->
+        <div class="free">
+          
+          <div class="free-text">
+            <h4 class="free-plan">Free plan</h4>
+            <p class="bus-type">
+             For small and medium-sized businesses
+            </p>
+          </div>
+
+         <div class="payment">
+          <p class="amount">
+           <span class="pay">$0</span>
+           <span class="duration">forever</span>
+          </p>
+         </div>
+
+         <div class="payment-specs">
+           <ul class="free-specs">
+            <li><i class="fas fa-check"></i>Unlimited conversations</li>
+            <li><i class="fas fa-check"></i>Built-in Task management</li>
+            <li><i class="fas fa-check"></i>Community support</li>
+            <li><i class="fas fa-check"></i>Up to 10 team members </li>
+            <li><i class="fas fa-check"></i>1 guest user</li>
+            <li><i class="fas fa-check"></i>1 multi-conversation guest</li>
+            <li><i class="fas fa-check"></i>Up to 10 teams integrations</li>
+           </ul>
+         </div>
+
+          <div class="signup-button"> <a href="#" class="sign-up"> Sign Up</a> </div>
+        </div>
+        <!-- free option ends -->
+
+      </div>
+      <!-- flex-ends -->
+     </div>
+
+
+      <!-- media starts-->
+    <section class="media">
+      <div class="media-section">
+       <div class="media-voice"> 
+         <h2 class="media-text">The voice of media on how we're addressing today's biggest issues</h2>
+       </div>
+       <div class="media-images">
+         <img src="/asset/images/svg files/bc.svg" alt="bussiness.com logo">
+         <img src="/asset/images/svg files/hubspot.svg" alt="Hubspot logo">
+         <img src="/asset/images/svg files/vb.svg" alt="VB logo">
+         <img src="/asset/images/svg files/nq@2x.svg" alt="Nasdaq logo">
+         <img src="/asset/images/svg files/forbes.svg" alt="Forbes logo">
+         <img src="/asset/images/svg files/cio.svg" alt="CIO logo">
+         <img src="/asset/images/svg files/techradar.svg" alt="techradar logo">
+         <img src="/asset/images/svg files/ent-europe-logo-black.svg" alt="entreprenuer Europe logo">
+       </div>
+      </div>
+    
+    </section>
+    <!-- media ends -->
+    </section>
+    <!-- pricing section ends -->
+
     <!-- main ends -->
 
     <!-- footer starts -->

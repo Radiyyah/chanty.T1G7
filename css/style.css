@@ -587,158 +587,7 @@
 
 /* MAIN STYLING STARTS */
 
-/* pricing section starts  */
- .pricing-text {
-     padding: 70px 20px 20px 15px;
- }
- div .pricing{
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 22px;
-    color: hsl(217, 84%, 56%);
- }
-.pricing-text h2{
-    font-family: 'Inter', sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 30px;
-    color: hsl(211, 24%, 17%);
-}
-.pricing-text .time{
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    line-height: 24px;
-    color: hsl(208, 18%, 48%);  
-    padding: 20px 2px;
-}
-.pricing-changer{
-    position: relative;
-    display: inline-block;
-    width: 56px;
-    height: 32px;
-  }
-.pricing-changer input { 
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  .pricing-toggle {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color:  hsl(217, 84%, 56%);
-    -webkit-transition: .4s;
-    transition: .4s;
-    border-radius: 34px;
-  }
-  .pricing-toggle:before {
-    position: absolute;
-    content: "";
-    height: 22px;
-    width: 22px;
-    left: 5px;
-    bottom: 5px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-    border-radius: 50%;
-  }
-  input:checked + .pricing-toggle {
-    background-color: hsl(147, 65%, 44%);
-  }
-  input:focus + .pricing-toggle {
-    box-shadow: 0 0 1px hsl(147, 65%, 44%);
-  }
-  input:checked + .pricing-toggle:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-  }
-  .switch span{
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 42px;
-    color: hsl(217, 84%, 56%); 
-  }
-  .switch .monthly,
-  .switch .annually{
-    margin: 20px 10px;
-  }
- .business{
-   background-color: hsl(217, 84%, 56%);
-   color:  hsl(0, 0%, 100%);
-   padding: 20px 15px 15px 15px;
- }
- .business-text .business-plan{
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  line-height: 25px;
-  font-size: 18px; 
- }
- .business-text .bus-type{
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  line-height: 26px;
-  font-size: 16px; 
- }
- .payment p .pay{
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  line-height: 64px;
-  font-size: 48px; 
- }
- .payment p .duration{
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  line-height: 25px;
-  font-size: 18px; 
- }
- .payment-specs p{
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  line-height: 40px;
-  font-size: 16px; 
- }
- .payment-specs ul li{
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  line-height: 40px;
-  font-size: 16px; 
- }
- ul{
-   list-style-type: none;
- }
- ul li::before {
-     content: "\f00c";
-     font-family: "Font Awesome 6 Free";
- }
-div .book-a-demo{
-  text-decoration: none;
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  color: hsl(0, 0%, 100%);
-  background-color: hsl(147, 65%, 44%);
-  padding: 20px 10px;
-  /* margin: 25px 10px; */
-  margin-bottom: 40px;
-}
- /* flex starts  */
 
- 
- /* business option starts  */
-
- /*  business option ends  */
-
-
- /* free option starts  */
-
- /*  free option ends  */
 /* Styling the testimonial header */
 .testimonial h1{
     position: sticky;
@@ -951,20 +800,422 @@ div .book-a-demo{
 
   
   
- 
+/* pricing section starts  */
+.pricing-text {
+  padding: 70px 20px 20px 15px;
+}
+div .pricing{
+ font-family: 'Inter', sans-serif;
+ font-weight: 700;
+ font-size: 12px;
+ line-height: 22px;
+ color: hsl(217, 84%, 56%);
+}
+.pricing-text h2{
+ font-family: 'Inter', sans-serif;
+ font-size: 24px;
+ font-weight: 700;
+ line-height: 30px;
+ color: hsl(211, 24%, 17%);
+}
+.pricing-text .time{
+ font-family: 'Inter', sans-serif;
+ font-weight: 400;
+ line-height: 24px;
+ color: hsl(208, 18%, 48%);  
+ padding: 20px 2px;
+}
+.pricing-changer{
+ position: relative;
+ display: inline-block;
+ width: 56px;
+ height: 32px;
+}
+.pricing-changer input { 
+ opacity: 0;
+ width: 0;
+ height: 0;
+}
+.pricing-toggle {
+ position: absolute;
+ cursor: pointer;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-color:  hsl(217, 84%, 56%);
+ -webkit-transition: .4s;
+ transition: .4s;
+ border-radius: 34px;
+}
+.pricing-toggle:before {
+ position: absolute;
+ content: "";
+ height: 22px;
+ width: 22px;
+ left: 5px;
+ bottom: 5px;
+ background-color: white;
+ -webkit-transition: .4s;
+ transition: .4s;
+ border-radius: 50%;
+}
+input:checked + .pricing-toggle {
+ background-color: hsl(147, 65%, 44%);
+}
+input:focus + .pricing-toggle {
+ box-shadow: 0 0 1px hsl(147, 65%, 44%);
+}
+input:checked + .pricing-toggle:before {
+ -webkit-transform: translateX(26px);
+ -ms-transform: translateX(26px);
+ transform: translateX(26px);
+}
+.switch span{
+ font-family: 'Inter', sans-serif;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 42px;
+ color: hsl(217, 84%, 56%); 
+}
+.switch .monthly,
+.switch .annually{
+ margin: 20px 10px;
+ font-weight: 400;
+}
+.switch .chosen,
+.switch .chosen {
+font-weight: 700;
+}
 
-/* MAIN STYLING ENDS */
+/* flex starts  */
 
- 
- /* flex ends  */
+/* business option starts */
+.business{
+background-color: hsl(217, 84%, 56%);
+color:  hsl(0, 0%, 100%);
+padding: 20px 10px 15px 20px;
+border-radius: 7px;
+margin: 0px 17px 35px 17px;
+}
+.business:hover {
+-ms-transform: scale(1.05);
+-webkit-transform: scale(1.05);
+transform: scale(1.05);
+box-shadow: 1px 1px 10px  hsl(208, 18%, 48%); 
+cursor: pointer;
+}
+.business-text .business-plan{
+font-family: 'Inter', sans-serif;
+font-weight: 700;
+line-height: 25px;
+font-size: 18px;
+}
+.business-text .bus-type{
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+line-height: 26px;
+font-size: 16px;
+padding: 8px 0;  
+}
+.payment{
+padding-top: 15px;
+}
+.payment p .pay{
+font-family: 'Inter', sans-serif;
+font-weight: 700;
+line-height: 64px;
+font-size: 48px; 
+}
+.payment p .duration{
+font-family: 'Inter', sans-serif;
+font-weight: 700;
+line-height: 25px;
+font-size: 18px; 
+}
+.payment-specs p{
+font-family: 'Inter', sans-serif;
+font-weight: 600;
+line-height: 40px;
+font-size: 16px; 
+}
+.payment-specs ul li{
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+line-height: 40px;
+font-size: 16px; 
+}
+ul{
+list-style-type: none;
+}
+
+.bus-specs .fa-check{
+ color: white;
+ padding: 0 10px 0 0;
+} 
+div .book-a-demo{
+text-decoration: none;
+font-family: 'Inter', sans-serif;
+font-weight: 600;
+font-size: 16px;
+color: hsl(0, 0%, 100%);
+background-color: hsl(147, 65%, 44%);
+padding: 13px 98px;
+border-radius: 7px;
+}
+.demo-button{
+border-radius: 10px;
+margin: 35px 15px 22px 0;
+}
+
+/*  business option ends  */
 
 
- /* pricing section ends  */
+/* free option starts  */
+.free{
+border: 1px solid #c3c3c3;
+box-shadow: 1px 1px 3px #c3c3c3;
+padding: 20px 10px 15px 20px;
+border-radius: 7px;
+margin: 0px 17px 35px 17px;
+}
+.free:hover {
+-ms-transform: scale(1.05);
+-webkit-transform: scale(1.05);
+transform: scale(1.05);
+box-shadow: 1px 1px 10px  hsl(208, 18%, 48%); 
+cursor: pointer;
+}
+.free-text .free-plan{
+font-family: 'Inter', sans-serif;
+font-weight: 700;
+line-height: 25px;
+font-size: 18px;
+}
+.free-text .bus-type{
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+line-height: 26px;
+font-size: 16px;
+padding: 8px 0; 
+color: hsl(208, 18%, 48%); 
+}
+.free-specs .fa-check{
+color: hsl(217, 84%, 56%);
+padding: 0 10px 0 0;
+} 
+div .sign-up{
+text-decoration: none;
+font-family: 'Inter', sans-serif;
+font-weight: 600;
+font-size: 16px;
+color: hsl(211, 24%, 17%);
+background-color: hsl(0, 0%, 100%);
+padding: 13px 115px;
+border:1px solid #c3c3c3;
+border-radius: 7px;
+}
+.signup-button{
+border-radius: 10px;
+margin: 35px 15px 22px 0;
+}
+div .sign-up:hover{
+background-color: hsl(147, 65%, 44%);
+color: hsl(0, 0%, 100%);
+border-style: none;
+}
+/*  free option ends  */
 
 
- /* media starts  */
+/* flex ends  */
 
- /*  media ends  */
+
+/* media starts  */
+.media-section{
+ padding: 15px;
+}
+.media-section .media-voice{
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.media-voice .media-text{
+ text-align: center;
+ font-family: 'Inter', sans-serif;
+ font-size: 24px;
+ line-height: 30px;
+ font-weight: 700;
+}
+.media-images{
+ margin-bottom: 50px;
+}
+.media-images img{
+ padding: 5px;
+ width: 75px;
+}
+/* media ends */
+
+
+
+
+@media only screen and ( min-width: 768px ) {
+.pricing-text{
+text-align: center;
+justify-content: center;
+padding-top: 80px;
+}
+.pricing-text .pricing{
+font-size: 16px;
+line-height: 22px;
+}
+.pricing-text h2{
+font-size: 32px;
+line-height: 42px;
+}
+.pricing-text .time{
+font-size: 18px;
+line-height: 28px;
+}
+.switch{
+padding-bottom: 30px;
+}
+.price .flex-container{
+display: flex;
+flex-direction: row-reverse;
+}
+.business{
+width: 327px;
+margin-right: 35px;
+padding-left: 20px;
+}
+.business-text .bus-type{
+padding-left: 10px;
+}
+.free{
+width: 327px;
+margin-right: 20px;
+}
+.free-text .free-plan, 
+.business-text .business-plan{
+font-size: 24px;
+line-height: 34px;
+}
+.free .payment p{
+line-height: 67px;
+padding-top: 0;
+padding-bottom: 50px;
+}
+.demo-button .book-a-demo{
+padding: 17px 90px;
+}
+.signup-button .sign-up{
+padding: 17px 108px;
+}
+.media-section .media-images{
+margin-bottom: 80px;
+}
+.media-section .media-voice h2{
+font-size: 32px;
+line-height: 42px;
+}
+.media-section .media-voice{
+padding: 50px 40px;
+}
+.media-images img{
+padding: 15px 15px 0 25px;  
+}
+img:nth-child(1) {
+width: 150px;
+}
+img:nth-child(2) {
+width: 140px;
+}
+img:nth-child(3) {
+width: 120px;
+}
+img:nth-child(4) {
+width: 150px;
+}
+img:nth-child(5) {
+width: 150px;
+}
+img:nth-child(6) {
+width: 120px;
+}
+img:nth-child(7) {
+width: 440px;
+padding-left: 170px;
+padding-right: 150px;
+}
+img:nth-child(8) {
+width: 160px;
+}
+}
+
+@media only screen and ( min-width: 1024px ) {
+.price{
+ display: flex;
+ margin: 80px 80px 0 80px;
+}
+.pricing-text{
+ padding: 0 80px 0 0;
+ text-align: left;
+}
+.pricing-text .pricing{
+line-height: 22px;
+font-size: 16px;
+}
+.pricing-text h2{
+line-height: 50px;
+font-size: 42px;
+}
+.pricing-text .time{
+line-height: 32px;
+font-size: 22px;
+}
+.business{
+margin-right: 0;
+width: 350px;
+}
+.business-text .business-plan,
+.free-text .free-plan{
+font-size: 28px;
+line-height: 39px;
+}
+.free{
+width: 350px;
+}
+.free-text .bus-type{
+padding-right: 20px;
+}
+.demo-button .book-a-demo{
+padding: 17px 102px;
+}
+.business .payment-specs{
+padding-top: 20px;
+}
+.signup-button .sign-up{
+padding: 17px 120px;
+}
+.media-section .media-voice h2{
+font-size: 42px;
+line-height: 50px;
+}
+.media-section .media-voice{
+padding: 50px 240px;
+}
+.media-section .media-images{
+margin: 50px 80px 80px 80px;
+}
+img:nth-child(7) {
+width: 120px;
+padding: 0;
+}
+.media-images img{
+padding: 0 20px;
+}
+}
+/* pricing section ends  */
+
 
 
 /* MAIN STYLING ENDS */
