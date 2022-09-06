@@ -25,12 +25,6 @@
     />
     <link rel="stylesheet" href="css/style.css" />
     <title>Chanty - Team Communication and Collaboration Software Chanty</title>
-    <link
-    rel="icon"
-    sizes="192x192"
-    type="image/png"
-    href="https://cdn.chanty.com/favicon.png"
-    />
     <script src="https://kit.fontawesome.com/a8ff4d3716.js" crossorigin="anonymous"></script>  
 
     <script src="js/script.js"></script>
@@ -41,7 +35,7 @@
     <!--Header start -->
     
     <header>
-      <!-- navbar starts -->
+      <!-- navbar start -->
       <nav>
         <div class="nav-bar-1">
           <div class="summer-sale-discount">
@@ -57,28 +51,22 @@
             />
           </div>
         </div>
-        <div id="menu">
-          <div class="chanty-logo">
+          <div class="good">
             <img
-              class="chanty-logo-with-text"
-              src="./asset/images/svg files/chanty logo.svg"
-              alt="chanty logo"
-            />
-            <img
-              class="chanty-logo-without-text"
-              src="./asset/images/svg files/c chanty.svg"
-              alt="chanty logo"
-            />
-            <label id="icon">
-              <i class="fas fa-bars"></i> 
-            </label>
+            class="chanty-logo-with-text"
+            src="./asset/images/svg files/chanty logo.svg"
+            alt="chanty logo"/>
+          <img
+            class="chanty-logo-without-text"
+            src="./asset/images/svg files/c chanty.svg"
+            alt="chanty logo"/>
+          </div>
+          <div id="icon">
+
+          </div>
+          <div id="menu">
             <ul>
-              <!-- <div class="close">
-                <img
-                  src="./asset/images/svg files/close-icon.svg"
-                  alt="close-icon"/>
-              </div> -->
-              <button id="close-icon"> <i class="fa-solid fa-xmark"></i></button> 
+            
               <li class="nav-1"><a href="#">Features</a></li>
               <li class="nav-2"><a href="#">Pricing</a></li>
               <li class="nav-3"><a href="#">Communication Software</a></li>
@@ -98,6 +86,71 @@
               <li class="nav-6"><a href="#">Sign in</a></li>
               <li class="nav-7"><button>Free Sign up</button></li>
               <li class="nav-8"><button>Book a demo</button></li>
+              <img
+              class="nav-logo"
+              src="./asset/images/svg files/c chanty.svg"
+              alt="chanty logo"/> 
+            </ul>
+
+          </div>
+            <img 
+              class="chanty-logo-with-text"
+              src="./asset/images/svg files/chanty logo.svg"
+              alt="chanty logo"
+            />
+            <img
+              class="chanty-logo-without-text"
+              src="./asset/images/svg files/c chanty.svg"
+              alt="chanty logo"
+            />
+            <label id="icon">
+              <i class="fas fa-bars"></i> 
+            </label>
+            <ul>
+              <button id="close-icon"> 
+                <i class="fa-solid fa-xmark"></i>
+              </button> 
+              <li class="nav-1">
+                <a href="#">Features</a>
+              </li>
+              <li class="nav-2">
+                <a href="#">Pricing</a>
+              </li>
+              <li class="nav-3">
+                <a href="#">Communication Software</a>
+              </li>
+              <div class="sub-links">
+                <div class="market" onclick="show('Market')">
+                  Marketing
+                </div>
+                <div class="education" onclick="show('Market')">
+                  Education
+                </div>
+                <div class="IT" onclick="show('Market')">
+                  IT Specialists
+                </div>
+              </div>
+              <li class="nav-4">
+                <a href="#">
+                  Downloads
+                </a>
+              </li>
+              <li class="nav-5">
+                <a href="#">
+                  Blog
+                </a>
+              </li>
+              <li class="nav-6">
+                <a href="#">
+                  Sign in
+                </a>
+              </li>
+              <li class="nav-7">
+                <button>Free Sign up</button>
+              </li>
+              <li class="nav-8">
+                <button>Book a demo</button>
+              </li>
               <img
               class="nav-logo"
               src="./asset/images/svg files/c chanty.svg"
@@ -141,7 +194,7 @@
       </div>
       <div class="paterners-logos" id="paterners-logos" >
         <div class="oracle-logo">
-          <img src="./asset/images/svg files/oracle.svg" alt="oracle lolg">
+          <img src="./asset/images/svg files/oracle.svg" alt="oracle logo">
         </div>
         <div class="tata-logo">
           <img src="./asset/images/svg files/tata.svg" alt="tata logo">
@@ -171,404 +224,192 @@
 
     <!-- main starts -->
     <main>
+      <!-- voice and video call section starts  -->
       <div class="chant">
-        <p>VOICE AND VIDEO CALL</p>
-        <h2>Meet more efficiently with video conferencing</h2>
-        <p>
-          it's easier to see things eye-to-eye when you're face-to-face. Vidoe
-          conferencing helps you share information more efficiently, so work
-          gets done faster.
-        </p>
-        <div class="voice">
-          <img
-            src="/asset/images/image/voice abd video calls image.png"
-            alt="video calls"
-          />
-        </div>
-        <div class="join">
-          <img src="/asset/images/svg files/join.svg" alt="device" />
-        </div>
-        <h3>join anywhere, on my device</h3>
-        <p>
-          With chanty, you can start or join a call from anywhere. Go from
-          typing messages to making a video call with the click of a button.
-        </p>
         <div class="show">
-          <img src="/asset/images/svg files/show.svg" alt="" />
+          <div class="circlevideo">
+            <p class="call">VOICE AND VIDEO CALL</p>
+            <h2 class="meet">Meet more efficiently with video conferencing</h2>
+            <p class="easier">
+              it's easier to see things eye-to-eye when you're face-to-face. Video
+              conferencing helps you share information more efficiently, so work
+              gets done faster.
+            </p>
+          </div>
+          <div class="voice">
+            <picture></picture>
+            <img
+            src="/asset/images/image/voice abd video calls image.png"
+            alt="video calls" width="500" height="312"
+            />
+          </div>
         </div>
-        <h3>Present and discuss</h3>
-        <p>
-          While in a video conference, you can show what you're working on by
-          sharing your screen or let someone else share theirs.
-        </p>
-        <div class="circle">
-          <img src="/asset/images/svg files/circle video.svg" alt="" />
+        <div class="all">
+          <div class="join">
+            <img src="/asset/images/svg files/join.svg" alt="">
+            <h3 class="anywhere">Join anywhere, on my device</h3>
+            <p>with chanty, you can start or join a call from anywhere. Go from typing messages to making a video call with the click of a button.</p>
+          </div>
+          <div class="join">
+            <img src="/asset/images/svg files/show.svg" alt="">
+            <h3 class="anywhere">Present and discuss</h3>
+            <p>While in a video conference, you can show what you're working on by sharing your screen or let someone else share theirs.</p>
+          </div>
+          <div class="join">
+            <img src="/asset/images/svg files/circle video.svg" alt="">
+            <h3 class="anywhere">4K video and audio</h3>
+            <p>Bring 4k video and audio to your meetings with support for up to 1000 video participants and 49 video on screen.</p>
+          </div>
         </div>
+
         <h3>4k video and audio</h3>
         <p>
           Bring 4k video and audio to your meetings with support for up to 1000
           video participants and 49 video on screen.
         </p>
 
-    <!-- pricing section starts -->
+    
+      </div>
+      <!-- voice and video call section ends  -->
+
+
+      <!-- tasks section starts  -->
+
+      <!-- task section ends  -->
+
+
+     <!-- testimonial section starts  -->
+
+     <!-- testimonial section ends  -->
+
+
+      <!-- pricing section starts -->
+        <!-- pricing section starts -->
    <section class="pricing section">
       <div class="price">
-      <div class="pricing-text">
-        <p class="pricing">PRICING</p>
-        <h2>Choose the plan that's right for your team</h2>
-        <p class="time">Pay monthly or annually and cancel at any time.</p>
-        
-        <div class="switch">
-          <span class="monthly">Monthly</span>
-          <label class="pricing-changer">
-            <input type="checkbox" checked>
-            <span class="pricing-toggle"></span>
-          </label>
-          <span class="annually">Annually</span>
-        </div>
-      </div>
-
-      <!-- flex starts -->
-      <div class="flex-container">
-
-        
-        <!-- business option starts -->
-        <div class="business">
-          
-          <div class="business-text">
-            <h4 class="business-plan">Business plan</h4>
-            <p class="bus-type">
-             For larger businesses and those seeking advanced administration tools
-            </p>
-          </div>
-
-         <div class="payment">
-          <p class="amount">
-           <span class="pay" id="money">$3</span>
-           <span class="duration">user/month</span>
-          </p>
-         </div>
-
-         <div class="payment-specs">
-           <p class="features">Standard features, plus:</p>
-           <ul class="freee-specs">
-            <li>Unlimited group video calls</li>
-            <li>Roles & Permissions</li>
-            <li><span id="money">$3</span> per member</li>
-            <li>3 guests per member for free</li>
-            <li><span id="money">$3</span> per multi conversation guest</li>
-            <li>Unlimited integrations</li>
-            <li>Dedicated support line</li>
-           </ul>
-           
-           <div> <a href="#" class="book-a-demo">Book a demo</a> </div>
-           </div>
-         </div>
-
-        <!-- business option ends -->
-
-        <!-- free option starts -->
-        <div class="free">
-          
-          <div class="free-text">
-            <h4 class="free-plan">Free plan</h4>
-            <p class="bus-type">
-             For small and medium-sized businesses
-            </p>
-          </div>
-
-         <div class="payment">
-          <p class="amount">
-           <span class="pay">$0</span>
-           <span class="duration">forever</span>
-          </p>
-         </div>
-
-         <div class="payment-specs">
-           <ul class="freee-specs">
-              <li>Unlimited conversations</li>
-              <li>Built-in Task management</li>
-              <li>Community support</li>
-              <li>Up to 10 team members </li>
-              <li>1 guest user</li>
-              <li>1 multi-conversation guest</li>
-              <li>Up to 10 teams integrations</li>
-           </ul>
-         </div>
-
-          <div> <a href="#" class="sign-up"> Sign Up</a> </div>
-        </div>
-        <!-- free option ends -->
-
-      </div>
-      <!-- flex-ends -->
-     </div>
-    </section>
-    <!-- pricing section ends -->
-
-    <!-- media starts-->
-    <section class="media">
-      <div class="media-voice"> 
-        <h2 class="media-text">The voice of media on how we're addressing today's biggest issues</h2>
-      </div>
-    </section>
-    <!-- media ends -->
-
-      <!-- Testimonials -->
-      <div class="testimonial">
-        <h1>This is what they have to say about us</h1>
-        <!-- SlideShow container -->
-        <div class="slideshow-container">
-
-          <div class="section1" name="slide">
-            <!-- Testimonial from Melinda Self -->
-            <div id="card" class="card1">
-              <p>"We like the document attachment feature so we can share briefs and procedures. I even got the post on my apple watch which it's great if I'm in a meeting and want to take a quick peek to see if something urgent has come up. Our work is hard and using GIFs makes it much more pleasurable."</p>
-              <div class="profile" style="position: absolute; left: 10%;">
-                <div class="img" style="position: relative; left: 100px;">
-                  <img src="/asset/images/image/melinda self.jpg" alt="Melinda image">
-                </div>
-                <h3 style="position: relative; left: 5px;">Melinda Self</h3>
-                <span style="position: relative; left: 20px;">Director at Contra Costa County Department of Child Support Services</span>
-
-                <div class="logo">
-                  <img src="/asset/images/image/contra-costa.png" alt="contra-costa logo" style="width: 150px; height: 50px; position: relative; left: 130px;">
-                </div>
-
-          <!-- Testimonial from Melinda Self -->
-          <div id="card" class="card1">
-            <p>"We like the document attachment feature so we can share briefs and procedures. I even got the post on my apple watch which it's great if I'm in a meeting and want to take a quick peek to see if something urgent has come up. Our work is hard and using GIFs makes it much more pleasurable."</p>
-            <div class="profile" style="position: absolute; left: 10%;">
-              <div class="img" style="position: relative; left: 100px;">
-                 <img src="asset/images/image/melinda self.jpg" alt="Melinda image">
-              </div>
-              <h2 style="position: relative; left: 5px;">Melinda Self</h2>
-              <span style="position: relative; left: 20px;">Director at Contra Costa County Department of Child Support Services</span>
-
-              <div class="logo">
-                <img src="asset/images/image/contra-costa.png" alt="contra-costa logo" style="width: 150px; height: 50px; position: relative; left: 130px;">
-              </div>
+          <div class="pricing-text">
+            <p class="pricing">PRICING</p>
+            <h2>Choose the plan that's right for your team</h2>
+            <p class="time">Pay monthly or annually and cancel at any time.</p>
+            
+            <div class="switch">
+              <span class="monthly" id="normal">Monthly</span>
+              <label  class="pricing-changer">
+                <input type="checkbox" checked onclick="myFunction()">
+                <span class="pricing-toggle"></span>
+              </label>
+              <span class="annually chosen" id="bold">Annually</span>
             </div>
-          </div>  
-          <!-- Testimonial from Jacob Hopson -->
-          <div id="card" class="card2">
-            <p>"We value Chanty because of the ability to have all work related conversations in one place. We also enjoy being able to send files back and forth, Being able to access Chanty from anywhere is a huge advantage if one of us has an urgent issue we need feedback on"</p>
-            <div class="profile">
-              <div class="img">
-                <img src="asset/images/image/jacob hopson.jpg" alt="Jacob hopson image">
-              </div>
+          </div>
+
+          <!-- flex starts -->
+          <div class="flex-container">
+
+            
+            <!-- business option starts -->
+            <div class="business">
               
-            </div> 
-            <!-- Testimonial from Jacob Hopson -->
-            <div id="card" class="card2">
-              <p>"We value Chanty because of the ability to have all work related conversations in one place. We also enjoy being able to send files back and forth, Being able to access Chanty from anywhere is a huge advantage if one of us has an urgent issue we need feedback on"</p>
-              <div class="profile">
-                <div class="img">
-                  <img src="/asset/images/image/jacob hopson.jpg" alt="Jacob hopson image">
-                </div>
-                <h3 style="position: relative; left: 10px;">Jacob hopson</h3>
-                <span style="position: relative; left: 10px;">Landman at Rain Oil & Gas LLC</span>
-
-
-                <div class="logo">
-                  <img src="/asset/images/image/nsecdis logo.png" alt="Rain Oil logo" style="width: 40px; height: 50px; position: relative; left: 70px;">
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="section2" name="slide">
-            <!-- Testimonial from Fabian Krieger -->
-            <div id="card" class="card3">
-              <p>"Thanks, you are my BFF... Making Chanty more fun and better than Slack! I'll support you guys all the way :)"</p>
-              <div class="profile">
-                <div class="img">
-                  <img src="/asset/images/image/fabian krieger.jpg" alt="Fabian Krieger image">
-                </div>
-                <h3 style="position: relative; left: 25px;">Fabian Krieger</h3>
-                <span style="position: relative; left: 65px;">Hoogdesign</span>
-          
-                <div class="logo">
-                  <img src="/asset/images/svg/hoogdesign-logo.svg" alt="hoogdesign logo" style="width: 150px; height: 50px;">
-                </div>
-              </div>
-            </div>
-            <!-- Testimonial from Julia Dadds -->
-            <div id="card" class="card4">
-              <p>"I like the simplicity of the platform and yet it has the major features we need"</p>
-              <div class="profile">
-                <div class="img">
-                  <img src="/asset/images/image/julia dadds.jpg" alt="Julia Dadds image">
-                </div>
-                <h3 style="position: relative; left: 40px;">Julia Dadds </h3>
-                <span style="position: relative; left: 56px;">Pyramid Coaches</span>
-          
-                <div class="logo">
-                  <img src="/asset/images/image/nsecdis@2x.png" alt="nsecdis logo" style="width: 80px; height: 80px; position: relative; left: 70px;">
-                </div>
-              </div>
-            </div> 
-          </div>
-          <div class="section3" name="slide">
-              <!-- Testimonial from Amilcar de carvaralho -->
-            <div id="card" class="card5">
-              <p>"Slack was too slow for my phone, and didn't have audio messages, which is crucial for me as I enjoy working while walking with my dog in nature and Microsoft was too complex to use. Finally no more whatsapp for communications and audio messages, which make us extremely focused"</p>
-              <div class="profile">
-                <div class="img">
-                  <img src="/asset/images/image/amilcar de carvaralho.jpg" alt="Amilcar De Carvalho image">
-                </div>
-                <h3 style="position: relative; left: 10px;">Amilcar De Carvalho</h3>
-                <span style="position: relative; left: 10px;">Creative Director at Battalion Media</span>
-          
-                <div class="logo">
-                  <img src="/asset/images/image/BM logo.png" alt="BM logo" style="width: 150px; height: 50px;">
-                </div>
-              </div>
-            </div>
-            <!-- Testimonial from David Oragui -->
-            <div id="card" class="card6">
-              <p>"Seems like you've got a great product. The UI is amazing, please keep up the good work."</p>
-              <div class="profile">
-                <div class="img">
-                  <img src="/asset/images/image/david oragui.jpg" alt="David Oragui image">
-                </div>
-                <h3 style="position: relative; left: 40px;">David Oragui</h3>
-                <span style="position: relative; left: 55px;">Grow Hack Scale</span>
-          
-                <div class="logo">
-                  <img src="/asset/images/image/growhackscale.png" alt="Grow Hack logo">
-                </div>
-                
-              <div class="logo">
-                <img src="asset/images/image/nsecdis logo.png" alt="Rain Oil logo" style="width: 40px; height: 50px; position: relative; left: 70px;">
-              </div>
-            </div>
-          </div>
-          <!-- Testimonial from Fabian Krieger -->
-          <div id="card" class="card3">
-            <p>"Thanks, you are my BFF... Making Chanty more fun and better than Slack! I'll support you guys all the way :)"</p>
-            <div class="profile">
-              <div class="img">
-                <img src="asset/images/image/fabian krieger.jpg" alt="Fabian Krieger image">
-              </div>
-              <h2 style="position: relative; left: 25px;">Fabian Krieger</h2>
-              <span style="position: relative; left: 70px;">Hoogdesign</span>
-        
-              <div class="logo">
-                <img src="asset/images/svg files/hoogdesign-logo.svg" alt="hoogdesign logo" style="width: 150px; height: 50px;">
-              </div>
-            </div>
-          </div>
-           <!-- Testimonial from Julia Dadds -->
-           <div id="card" class="card4">
-            <p>"I like the simplicity of the platform and yet it has the major features we need"</p>
-            <div class="profile">
-              <div class="img">
-                <img src="asset/images/image/julia dadds.jpg" alt="Julia Dadds image">
-              </div>
-              <h2 style="position: relative; left: 40px;">Julia Dadds </h2>
-              <span style="position: relative; left: 63px;">Pyramid Coaches</span>
-        
-              <div class="logo">
-                <img src="asset/images/image/nsecdis@2x.png" alt="nsecdis logo" style="width: 80px; height: 80px; position: relative; left: 70px;">
-              </div>
-            </div>
-          </div> 
-          <!-- Testimonial from Amilcar de carvaralho -->
-          <div id="card" class="card5">
-            <p>"Slack was too slow for my phone, and didn't have audio messages, which is crucial for me as I enjoy working while walking with my dog in nature and Microsoft was too complex to use. Finally no more whatsapp for communications and audio messages, which make us extremely focused"</p>
-            <div class="profile">
-              <div class="img">
-                <img src="asset/images/image/amilcar de carvaralho.jpg" alt="Amilcar De Carvalho image">
-              </div>
-              <h2>Amilcar De Carvalho</h2>
-              <span style="position: relative; left: 20px;">Creative Director at Battalion Media</span>
-        
-              <div class="logo">
-                <img src="asset/images/image/BM logo.png" alt="BM logo" style="width: 150px; height: 50px;">
-              </div>
-            </div> 
-          </div>
-          
-          <div class="section4" name="slide">
-              <!-- Testimonial from Tu Bui -->
-            <div id="card" class="card7">
-              <p>"We certainly love the simple interface and chats, tasks, files and links are put together in an easy way to use"</p>
-              <div class="profile">
-                <div class="img">
-                  <img src="/asset/images/image/tu bui.jpg" alt="Tu Bui image">
-                </div>
-                <h3 style="position: relative; left: 30px;">Tu Bui</h3>
-                <span style="position: relative; left: 77px;">Ringier</span>
-          
-                <div class="logo">
-                  <img src="/asset/images/svg/Ringier-logo.svg" alt="Ringier logo" style="width: 120px; height: 30px;">
-                </div>
-            </div>
-
-          <!-- Testimonial from David Oragui -->
-          <div id="card" class="card6">
-            <p>"Seems like you've got a great product. The UI is amazing, please keep up the good work."</p>
-            <div class="profile">
-              <div class="img">
-                <img src="asset/images/image/david oragui.jpg" alt="David Oragui image">
-              </div>
-              <h2 style="position: relative; left: 20px;">David Oragui</h2>
-              <span style="position: relative; left: 50px;">Grow Hack Scale</span>
-        
-              <div class="logo">
-                <img src="asset/images/image/" alt="BM logo">
-              </div>
-            </div>
-          </div> 
-          <!-- Testimonial from Tu Bui -->
-          <div id="card" class="card7">
-            <p>"We certainly love the simple interface and chats, tasks, files and links are put together in an easy way to use"</p>
-            <div class="profile">
-              <div class="img">
-                <img src="asset/images/image/tu bui.jpg" alt="Tu Bui image">
-              </div>
-              <h2 style="position: relative; left: 30px;">Tu Bui</h2>
-              <span style="position: relative; left: 75px;">Ringier</span>
-        
-              <div class="logo">
-                <img src="asset/images/svg files/Ringier-logo.svg" alt="Ringier logo" style="width: 120px; height: 30px;">
+              <div class="business-text">
+                <h4 class="business-plan">Business plan</h4>
+                <p class="bus-type">
+                For larger businesses and those seeking advanced administration tools
+                </p>
               </div>
 
+              <div class="payment">
+                <p class="amount">
+                <span class="pay" id="money">$3</span>
+                <span class="duration">user/month</span>
+                </p>
+              </div>
+
+              <div class="payment-specs">
+                <p class="features">Standard features, plus:</p>
+                <ul class="bus-specs">
+                  <li><i class="fas fa-check"></i>Unlimited group video calls</li>
+                  <li><i class="fas fa-check"></i>Roles & Permissions</li>
+                  <li>
+                    <i class="fas fa-check"></i>
+                    <span id="money2">$3</span> per member</li>
+                  <li><i class="fas fa-check"></i>3 guests per member for free</li>
+                  <li>
+                    <i class="fas fa-check"></i>
+                    <span id="money3">$3</span> per multi conversation guest
+                  </li>
+                  <li><i class="fas fa-check"></i>Unlimited integrations</li>
+                  <li><i class="fas fa-check"></i>Dedicated support line</li>
+              </ul>
+                <div class="demo-button"> 
+                  <a href="#" class="book-a-demo">Book a demo</a> 
+                </div>
+              </div>
+            </div>
+
+            <!-- business option ends -->
+
+            <!-- free option starts -->
+            <div class="free">
+              
+              <div class="free-text">
+                <h4 class="free-plan">Free plan</h4>
+                <p class="bus-type">
+                For small and medium-sized businesses
+                </p>
+              </div>
+
+              <div class="payment">
+                <p class="amount">
+                <span class="pay">$0</span>
+                <span class="duration">forever</span>
+                </p>
+              </div>
+
+              <div class="payment-specs">
+                <ul class="free-specs">
+                  <li><i class="fas fa-check"></i>Unlimited conversations</li>
+                  <li><i class="fas fa-check"></i>Built-in Task management</li>
+                  <li><i class="fas fa-check"></i>Community support</li>
+                  <li><i class="fas fa-check"></i>Up to 10 team members </li>
+                  <li><i class="fas fa-check"></i>1 guest user</li>
+                  <li><i class="fas fa-check"></i>1 multi-conversation guest</li>
+                  <li><i class="fas fa-check"></i>Up to 10 teams integrations</li>
+                </ul>
+              </div>
+              <div class="signup-button"> 
+                <a href="#" class="sign-up"> Sign Up</a> 
+              </div>
+            </div>
+            <!-- free option ends -->
           </div>
-          
-          
+         <!-- flex-ends -->
         </div>
-          
-      </div>
-      <!-- The rectangle for changing the slides  -->
-      <div style="text-align:center">
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-      </div> 
-      <!-- section containing crozdesk and high perform winter logo -->
-      <div class="logo-container">
-        <img src="/asset/images/image/crozdesk logo.png" alt="crozdesk logo">
-        <img src="/asset/images/svg/InternalCommunications_HighPerformer_HighPerformer.svg" alt="high perform winter logo">
-        <img src="/asset/images/svg/top-performer-spring-white.svg" alt="">
-      </div>
-      <section class="section section-integrations">
-        <div class="new-container">
-          <div class="text u-margin-auto">
-            <h2 class="thirdly-heading u-text-align-center u-padding-bottom">Seamless integrations <br> with your favorite software</h2>
-            <p class="big-paragrap-font u-max-width-600 u-text-align-center u-margin-auto u-padding-bottom-mid">Getting started is easy since workflows are integrated with apps your team members are already working with.</p>
-            <a class="bt bt__transparent u-margin-auto" href="https://www.chanty.com/apps/">Explore integrations</a>
-          </div>
+
+        
+        <!-- media starts-->
+        <section class="media">
+          <div class="media-section">
+            <div class="media-voice"> 
+              <h2 class="media-text">
+                The voice of media on how we're addressing today's biggest issues
+              </h2>
+            </div>
+            <div class="media-images">
+              <img src="/asset/images/svg files/bc.svg" alt="bussiness.com logo">
+              <img src="/asset/images/svg files/hubspot.svg" alt="Hubspot logo">
+              <img src="/asset/images/svg files/vb.svg" alt="VB logo">
+              <img src="/asset/images/svg files/nq@2x.svg" alt="Nasdaq logo">
+              <img src="/asset/images/svg files/forbes.svg" alt="Forbes logo">
+              <img src="/asset/images/svg files/cio.svg" alt="CIO logo">
+              <img src="/asset/images/svg files/techradar.svg" alt="techradar logo">
+              <img src="/asset/images/svg files/ent-europe-logo-black.svg" alt="entreprenuer Europe logo">
+            </div>
+      
         </div>
+        </section>
+        <!-- media ends -->
+        
       </section>
-      
-      
-
+    <!-- pricing section ends -->
     </main>
     <!-- main ends -->
 
