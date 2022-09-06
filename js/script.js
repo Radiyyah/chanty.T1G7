@@ -110,3 +110,39 @@ dropdown.onclick = function(){
 //   }
 // }
 
+// main starts
+
+// pricing section starts
+function myFunction() {
+    var element = document.getElementById("normal");
+    element.classList.toggle("chosen");
+  
+    var element = document.getElementById("bold");
+    element.classList.toggle("chosen");
+  
+      var x = document.getElementById("money");
+      if (x.innerHTML === "$3") {
+        x.innerHTML = "$4";
+      } else {
+        x.innerHTML = "$3";
+      }
+  
+      var x = document.getElementById("money2");
+      if (x.innerHTML === "$3") {
+        x.innerHTML = "$4";
+      } else {
+        x.innerHTML = "$3";
+      }
+  
+      var x = document.getElementById("money3");
+      if (x.innerHTML === "$3") {
+        x.innerHTML = "$4";
+      } else {
+        x.innerHTML = "$3";
+      }
+    }
+  
+  
+  // pricing section ends
+  
+    // main ends
