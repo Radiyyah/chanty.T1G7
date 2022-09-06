@@ -42,6 +42,20 @@
         display: flex;
         line-height: 25px
     }
+    @media  screen and (min-width:768px){
+      .nav-bar-1 {
+        background-image: url(../asset/images/image/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 300%;
+        background-position: 10%;
+      }
+    }
+    @media  screen and (min-width:1200px){
+      .nav-bar-1{
+        background-position: 30%;
+        background-size: 120%
+      }
+    }
     .summer-sale-discount p{
         color: var(--LightBrown);
     }
@@ -96,6 +110,12 @@
             margin-left: 5rem;
         }
     }
+    @media  screen and (min-width:1024px){
+      .cancel{
+        position: relative;
+           left: 23%;
+      }
+    }
     @media  screen and (min-width:1200px){
         .cancel{
            position: relative;
@@ -130,13 +150,21 @@
     }
     .chanty-logo-without-text{
         width: 25px;
-        margin: 20px;
+        margin: 20px 20px 10px 20px;
     }
     @media  screen and (min-width:1200px){
       .chanty-logo-with-text{
         display: block;
-        width: 15%;
-        margin: 40px 0 0 40px;
+        width: 12%;
+        margin: 35px 0 0 40px;
+      }
+    }
+    @media  screen and (min-width:1024px){
+      .chanty-logo-without-text{
+        display: block;
+        margin-bottom: -1px;
+        margin-left: 60px;
+        width: 4%;
       }
     }
     @media  screen and (min-width:1200px){
@@ -202,7 +230,7 @@
         }
         @media  screen and (min-width:768px){
           #icon{
-            margin-top: 10;
+            margin-top: 20px;
             width: 70px;
           }
         }
@@ -216,6 +244,11 @@
           #icon::after{
             width: 35px;
             height: 4px;
+          }
+        }
+        @media  screen and (min-width:1024px){
+          #icon{
+            display: block;
           }
         }
         @media  screen and (min-width:1200px){
@@ -253,16 +286,7 @@
             border-bottom: 1px groove var(--Grayish);
             font-family: 'Inter', sans-serif;  
         }
-        @media screen and (min-width:1200px){
-          #menu ul li{
-            display: inline;
-            list-style-type: none;
-            position: relative;
-            top: 20px;
-            align-content: space-between;
-            padding: 0 20px;
-          }
-        }
+        
         .active#menu{
             left: 0;
         }
@@ -286,7 +310,14 @@
     #links{
       display: none;
     }
+
     @media  screen and (min-width:1024px){
+      #links{
+        display: none;
+      }
+    }
+    
+    @media  screen and (min-width:1200px){
       #links{
         display: inline;
         margin-left: 50px;
@@ -294,61 +325,73 @@
         top: 9rem;
       }
     }
-    @media  screen and (min-width:1024px){
-      #links ul{
-        list-style-type: none;
+    @media  screen and (min-width:1200px){
+      #links ol{
+        /* list-style-type: none; */
         margin-left: 20rem;
         padding: 0;
       }
     }
-    @media  screen and (min-width:1024px){
-      #links ul li{
+    @media  screen and (min-width:1200px){
+      #links ol li{
         display: inline;
-        padding: 8px;
+        padding: 12px;
         list-style-type: none;
       }
     }
     @media  screen and (min-width:1024px){
-      #links ul li a{
+      #links ol li a{
         color: var(--White);
         font-family: 'Inter', sans-serif;
         text-decoration: none;
         font-size: 16px;
-        list-style-type: none;
+        /* list-style-type: none; */
         cursor: pointer;
       }
     }
     @media  screen and (min-width:1200px){
-      #links ul li a:hover{
-        color: grey
+      #links ol li a:hover{
+        color: lightgrey;
       }
     }
     @media  screen and (min-width:1200px){
-      #link-1 button{
+      .link-1 button{
         border: none;
         color: var(--Green);
         background-color: var(--Blue);
         font-size: 18px;
         font-family: 'Inter', sans-serif;
         cursor: pointer;
+        font-weight: 600;
       }
     }
     @media  screen and (min-width:1200px){
-      #link-2 button{
-            border:1px solid var(--Green);
+      .link-1 button:hover{
+        color:limegreen
+      }
+    }
+    @media  screen and (min-width:1200px){
+      .link-2 button{
+            border:1px solid var(--White);
+            border-radius: 10px;
             background-color:transparent;
             font-weight: 700;
             font-size: 16px;
-            color: var(--Green);
-            padding: 12px;
+            color: var(--White);
+            padding: 9px;
             cursor: pointer;
       }
     }
     @media  screen and (min-width:1200px){
-      #link-3 button{
-            padding: 12px;
+      .link-2 button:hover{
+        color: lightgrey;
+      }
+    }
+    @media  screen and (min-width:1200px){
+      .link-3 button{
+            padding: 9px;
             border-radius: 10px;
-            border:1px solid var(--White);
+            border:1px solid var(--Green);
             background-color:var(--Green);
             font-weight: 700;
             font-size: 16px;
@@ -356,6 +399,19 @@
             cursor: pointer;
       }
     }
+    @media  screen and (min-width:1200px){
+      .link-3 button:hover{
+        color: lightgray;
+      }
+    }
+    
+    /* .me{
+      background-color: red;
+      
+    }
+    .me ol li{
+      list-style-type: none;
+    } */
         
         .sub-links{
             position: absolute;
@@ -461,6 +517,7 @@
 .get-more-work-done-together{
     padding: 10px;
     background-color: var(--Blue);
+    padding-top: 40px;
 }
 .get-more{
     color: var(--White);
