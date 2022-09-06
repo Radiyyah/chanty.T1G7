@@ -587,6 +587,89 @@
 
 /* MAIN STYLING STARTS */
 
+/* video and call section starts */
+.show{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.chant{
+    padding: 0 4rem;
+    width: auto;
+}
+.circlevideo{
+    display: block;
+    /* flex:0 0 45%; */
+}
+.call{
+    padding-bottom: 0.4rem;
+    color: #3079ed;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 1.9rem;
+    font-family: 'inter', sans-serif;
+    /* letter-spacing: 0.05rem; */
+}
+.meet{
+    font-size: 3.1rem;
+    font-weight: 700;
+    padding-bottom: 2.2rem;
+    display: block;
+    margin-block: 0.83em;
+    font-family: 'inter_bold', sans-serif;
+}
+.easier{
+    font-size: 2.2rem;
+    /* line-height: 3.2rem; */
+    font-family: 'inter_regular', sans-serif;
+}
+.voice{
+    /* position:relative; */
+    /* left: 60rem; */
+    display: block;
+    left: 0.3%;
+    flex:0 0 50%;
+    /* top: 50%; */
+}
+ .all{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7rem;
+ }
+ .join{
+    display: block;
+    flex:0 0 29%;
+ }
+ h3{
+  display: block;
+  margin-block: 1rem;
+ }
+ .anywhere{
+    padding-bottom: 0.6rem;
+    font-size: 1.7rem;
+    font-family: 'inter-bold', sans-serif;
+    /* letter-spacing: 0.8rem; */
+    font-weight: 700;
+ }
+ p{
+    font-size: 1.6rem;
+    /* line-height: 2.6rem; */
+    display: block;
+    font-family: 'inter_regular', sans-serif;
+    color: #637381;
+ }
+/* video and call section ends  */
+
+
+/* tasks section starts  */
+
+/* tasks sections ends  */
+
+
+/* testimonial section starts  */
+
+/* testimonial section ends  */
+
 /* pricing section starts  */
  .pricing-text {
      padding: 70px 20px 20px 15px;
@@ -963,7 +1046,14 @@ div .book-a-demo{
 
 
  /* media starts  */
-
+ @media only screen and (max-width: 80rem){
+    .chant{
+        padding: 0 4rem;
+        width: auto;
+    }
+ }
+ 
+ 
  /*  media ends  */
 
 
