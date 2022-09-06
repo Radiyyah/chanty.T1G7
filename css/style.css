@@ -15,9 +15,10 @@
     }
     
     *{
-        margin: 0;
-        padding: 0;
-        box-sizing:border-box;
+      margin: 0;
+      padding: 0;
+      box-sizing:border-box;
+      overflow-x: hidden;
     }
     
     body{
@@ -256,24 +257,27 @@
 }
 @media screen and (min-width:768px) {
   .get-more-work-done-together{
-    padding: 40px;
+    padding: 40px 0 40px 40px;
+
   }
 }
 @media screen and (min-width:1024px) {
   .discord-get-more-flex-box{
     display:flex;
+    /* max-width:1024px; */
   }
 
 }
 @media screen and (min-width:1024px){
   .get-more-work{
     margin-top: 185px ;
+    
   }
 }
 @media screen and (min-width:1440px){
   .get-more-work{
-    margin-top: 160px ;
-    padding-left:80px ;
+    margin-top: 130px ;
+    padding-left:75px ;
   }
 }
  
@@ -292,11 +296,12 @@
   .get-more h1{
     font-size: 42px;
   }
+  
 }
 
 @media screen and (min-width:1440px) {
   .get-more h1{
-    font-size: 70px;
+    font-size: 68px;
   }
   .get-more h1 .together{
     white-space: nowrap;
@@ -333,7 +338,7 @@
 @media screen and (min-width:1440px) {
   .join-chanty{
     line-height: 40px;
-    font-size: 28px;
+    font-size: 26px;
     white-space: nowrap;
     font-weight: 300;
   }
@@ -372,7 +377,7 @@
     display: block;
   }
   #discord-image img{
-    width:100%;
+    width:688px;
     margin-top:50px;
   }
   #austin-watkins img{
@@ -418,25 +423,24 @@
     display: block;
   }
   #discord-image img{
-    width:1050px;
-    height: 640px;
+    width:928px;
     margin-top:0;
     position: relative;
-    right: -164px;
+    right: -94px;
     top: 15px;
     margin-top: 30px;
   }
   #austin-watkins img{
-    width: 310px;
+    width: 281px;
     position: absolute;
-    left: 794px;
-    top: 641px;
+    left: 722px;
+    top: 618px;
   }
   #task-in-main-board img{
-    width: 295px;
+    width: 263px;
     position: absolute;
-    left: 832px;
-    top: 170px;
+    left: 759px;
+    top: 193px;
   }
 }
 .chanty-to-be-more-productive{
