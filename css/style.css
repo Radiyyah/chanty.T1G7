@@ -300,67 +300,88 @@
 
 /* video and call section starts */
 .show{
+    flex-direction: column;
     align-items: center;
     display: flex;
     justify-content: space-between;
 }
 .chant{
-    padding: 0 4rem;
+    padding: 0 1.5rem;
     width: auto;
+    margin: auto;
+    display: block;
+}
+.anyy{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 .circlevideo{
+    padding-right: 2rem;
+    flex:0 0 45%;
     display: block;
-    /* flex:0 0 45%; */
 }
 .call{
-    padding-bottom: 0.4rem;
+    padding-bottom: 0;
     color: #3079ed;
-    font-weight: 700;
+    /* font-weight: 700; */
     font-size: 1.2rem;
-    margin-top: 1.9rem;
-    font-family: 'inter', sans-serif;
-    /* letter-spacing: 0.05rem; */
+    font-family: 'inter_bold', sans-serif;
 }
 .meet{
-    font-size: 3.1rem;
-    font-weight: 700;
-    padding-bottom: 2.2rem;
+    font-size: 1.4rem;
+    /* font-weight: 700; */
+    padding-bottom: 1.2rem;
     display: block;
     margin-block: 0.83em;
     font-family: 'inter_bold', sans-serif;
 }
 .easier{
-    font-size: 2.2rem;
+    font-size: 1.6rem;
+    /* line-height: 2.4rem; */
     /* line-height: 3.2rem; */
     font-family: 'inter_regular', sans-serif;
 }
 .voice{
-    position:relative;
-    /* left: 60rem; */
+    margin-top: 4rem;
     display: block;
-    left: 8.8%;
     flex:0 0 50%;
-    /* top: 50%; */
 }
  .all{
+    flex-direction: column;
     display: flex;
-    justify-content: space-between;
-    margin-top: 7rem;
+    /* justify-content: space-between; */
+    /* margin-top: 7rem; */
  }
  .join{
     display: block;
     flex:0 0 29%;
+    margin: 0;
  }
- h3{
-  display: block;
-  margin-block: 1rem;
+ .start{
+    margin-bottom: 1.2rem;
+    width: 3.6rem;
+ }
+ img{
+    /* height: auto; */
+    /* max-width: 100%; */
+ }
+ h2{
+    padding-bottom: 0.6rem;
+    font-size: 1.7rem;
+    font-family: 'inter-bold', sans-serif;
+    /* letter-spacing: 0.8rem; */
+    /* font-weight: 700; */
+    display: block;
+    margin-block: 1rem;
  }
  .anywhere{
     padding-bottom: 0.6rem;
     font-size: 1.7rem;
     font-family: 'inter-bold', sans-serif;
     /* letter-spacing: 0.8rem; */
-    font-weight: 700;
+    /* font-weight: 700; */
  }
  p{
     font-size: 1.6rem;
@@ -368,6 +389,7 @@
     display: block;
     font-family: 'inter_regular', sans-serif;
     color: #637381;
+    margin-block: 1rem;
  }
 /* video and call section ends  */
 
@@ -596,13 +618,64 @@ div .book-a-demo{
 
 
  /* media starts  */
- @media only screen and (max-width: 80rem){
+ @media screen and (max-width: 1024px){
     .chant{
+        overflow: hidden;
+        padding: 12rem 0 10rem;
+        position: relative;
+        display: block;
+    }
+    .anyy{
         padding: 0 4rem;
         width: auto;
+        margin: 0 auto;
+        display: block;
+    }
+    .all{
+        /* display: flex; */
+        justify-content: space-between;
+        margin-top: 7rem;
+        /* flex-direction: column; */
+    }
+    .show{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    .circlevideo{
+        flex: 0 0 45%;
+        display: block;
+    }
+    .meet{
+        font-size: 3.2rem;
+        padding-bottom: 2.2rem;
+    }
+    h2{
+        display: block;
+    }
+    .easier{
+        font-size: 1.8rem;
+    }
+    .voice{
+        width: 427px;
+        height: 295px;
+    }
+    .anywhere{
+        padding-bottom: 0.6rem;
+        font-size: 1.8rem;
+    }
+    img{
+        margin-bottom:1.2rem ;
+        width:3.6rem ;
+    }
+    h3{
+        display: block;
+    }
+    .with{
+        font-size: 1.6rem;
     }
  }
- @media only screen and (max-width:40.62em){
+ @media screen and (max-width: 1440px){
     .chant{
         padding: 0 1.5rem;
         flex-direction: column;
