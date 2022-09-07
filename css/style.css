@@ -11,34 +11,202 @@
 
 
 /* MAIN STYLING STARTS */
-/* media query */
 .container1{
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 }
 .colouredtaskletter{
     font-size: 16px;
     font-weight: 700;
     font-family: 'Inter', bold;
     color: hsl(217, 84%, 56%);
+    padding-top: 30px;
+    padding-bottom: 5px;
 }
+.taskimage img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 15px 30px -10px gray;
+    }
 .p1{
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 400px;
     font-family: 'Inter', normal;
     color:hsl(208, 18%, 48%);
-
+    line-height: 1.6 rem;
+}
+.p2{
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: 'Inter', normal;
+    color:hsl(208, 18%, 48%);
+    line-height: 1.6 rem;
 }
 .boldtext{
-    font-size: 42px;
+    font-size: 16px;
     font-weight: 700;
     font-family: 'Inter', bold;
+    padding-bottom: 10px;
+}
+.boldtext2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Inter', bold;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.container2{
+    display: block;
+    padding: 20px;
+}
+button{
+    background-color: hsl(147, 65%, 44%);
+    margin: 3px 80px 3px 80px;
+    font-family: 'Inter', normal;
+    text-decoration-color: hsl(0, 0%, 100%);
+    padding: 3px 0px 3px 0px;
+    width: 50px;
+    height: 50px;
+}
+.container3{
+  display: block; 
+  justify-content: center; 
+}
+.container4{
+    display: grid;
+}
+/* desktop view*/
+@media screen and (min-width:1024px) 
+{
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.colouredtaskletter{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Inter', bold;
+    color: hsl(217, 84%, 56%);
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+.p1{
+    font-size: 18px;
+    font-weight: 400px;
+    font-family: 'Inter', normal;
+    color:hsl(208, 18%, 48%);
+    line-height: 1.6rem;
+    padding-bottom: 10px;
+}
+.p2{
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: 'Inter', normal;
+    color:hsl(208, 18%, 48%); 
+    line-height: 1.6rem;
+}
+.boldtext{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Inter', bold;
+    padding-bottom: 10px;
+}
+.boldtext2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Inter', bold;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 .taskimage img {
 max-width: 100%;
 border-radius: 8px;
 box-shadow: 0px 15px 50px -10px gray;
+background-color: transparent;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin: 0 30px 0 30px;
+}
+.container3{
+    display: block; 
+    justify-content: center; 
+    background-color:hsl(217, 84%, 56%) ;
+    background-image: url(https://cdn.chanty.com/landing/202209010837/images/hp/sign-up-cover.svg);
+    opacity: 60;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: -4rem 40% ;
+    border-radius: 16px;
+    position: relative;
+    height: 250px;
+    width: auto;
+    margin: 30px 30px 0 30px;
+}
+.signuptext{
+    text-align: center;
+    font-family: 'Inter', bold;
+    font-size: 42px;
+    color: white;
+    padding-top: 20px;
+    line-height: 3.0rem;
+}
+input{
+    height: 53px;
+    width: 800px;
+    border-radius: 8px;
+    display: inline-flex;
+    justify-content: center;
+    justify-items: center;
+    border: none;
+    padding-left: 10px;
+    margin: 40px 0 10px 90px;
+}
+.submitbutton{
+    background-color: hsl(147, 65%, 44%);
+    margin-right: 70px;
+    margin-top: 41px;
+    color: white;
+    font-family: 'Inter', normal;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 3px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+    justify-content:right;
+}
+.submitbutton:hover {
+    background-color: hsl(147, 81%, 29%);
+    opacity: 1;
+}
+.container4{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding-top: 30px;
+}
+.googlestars{
+    background-color:hsl(55, 100%, 53%) ;
+    border: none;
+}
+.googleplay{
+    display: grid;
+    grid-template: 2fr 1fr 1fr;
+}
+}
+/*for tablet*/
+@media screen {
+    
 }
 
 
