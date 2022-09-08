@@ -1,7 +1,7 @@
-<<<<<<< HEAD
+
 // var closebtns = document.getElementsByClassName("close");
 // var i;
-=======
+
 
 let i = 0; //start point
 let container = [];
@@ -31,9 +31,6 @@ if(i = container){
 
 //     setTimeout("changeContainer()", time);
 
-var closebtns = document.getElementsByClassName("close");
-var i;
->>>>>>> e5024c6401102bf12233c0a4fd370f84f3a7e043
 
 // for (i = 0; i < closebtns.length; i++) {
 //   closebtns[i].addEventListener("click", function() {
@@ -110,3 +107,39 @@ dropdown.onclick = function(){
 //   }
 // }
 
+// main starts
+
+// pricing section starts
+function myFunction() {
+    var element = document.getElementById("normal");
+    element.classList.toggle("chosen");
+  
+    var element = document.getElementById("bold");
+    element.classList.toggle("chosen");
+  
+      var x = document.getElementById("money");
+      if (x.innerHTML === "$3") {
+        x.innerHTML = "$4";
+      } else {
+        x.innerHTML = "$3";
+      }
+  
+      var x = document.getElementById("money2");
+      if (x.innerHTML === "$3") {
+        x.innerHTML = "$4";
+      } else {
+        x.innerHTML = "$3";
+      }
+  
+      var x = document.getElementById("money3");
+      if (x.innerHTML === "$3") {
+        x.innerHTML = "$4";
+      } else {
+        x.innerHTML = "$3";
+      }
+    }
+  
+  
+  // pricing section ends
+  
+    // main ends
