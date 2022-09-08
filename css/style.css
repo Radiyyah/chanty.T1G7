@@ -299,19 +299,22 @@
 /* MAIN STYLING STARTS */
 
 /* video and call section starts */
-.show{
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
+.chant1{
+    padding: 7.5rem 0;
+    overflow: hidden;
+    position: relative;
 }
 .chant{
-    padding: 0 1.5rem;
-    width: auto;
-    margin: auto;
     display: block;
 }
 .anyy{
+    padding: 0 1.5rem;
+    margin: 0 auto;
+}
+div .voice .join{
+    display: block;
+}
+.show{
     flex-direction: column;
     align-items: center;
     display: flex;
@@ -319,78 +322,72 @@
 }
 .circlevideo{
     padding-right: 2rem;
-    flex:0 0 45%;
-    display: block;
+    flex: 0 0 45%;
+    z-index: 1;
 }
 .call{
+    font-size: 1.2rem;
     padding-bottom: 0;
     color: #3079ed;
-    /* font-weight: 700; */
-    font-size: 1.2rem;
     font-family: 'inter_bold', sans-serif;
+    font-weight:700 ;
+}
+p .easier{
+    display: block;
+    margin-block: 1rem;
 }
 .meet{
-    font-size: 1.4rem;
-    /* font-weight: 700; */
+    font-size: 2.4rem;
     padding-bottom: 1.2rem;
+    font-family:'inter_bold', sans-serif;
+    font-weight: 700;
+}
+h2 .meet{
     display: block;
     margin-block: 0.83em;
-    font-family: 'inter_bold', sans-serif;
 }
 .easier{
     font-size: 1.6rem;
-    /* line-height: 2.4rem; */
-    /* line-height: 3.2rem; */
+    line-height: 2.4rem;
+    color: #637381;
     font-family: 'inter_regular', sans-serif;
 }
 .voice{
     margin-top: 4rem;
-    display: block;
-    flex:0 0 50%;
+    flex: 0 0 50%;
 }
- .all{
+.voice img{
+    display: block;
+    margin-left: auto;
+}
+img{
+    height: auto;
+    max-width: 100%;
+}
+img video calls {
+    width: 500px;
+}
+.all{
     flex-direction: column;
     display: flex;
-    /* justify-content: space-between; */
-    /* margin-top: 7rem; */
- }
- .join{
-    display: block;
+    justify-content: space-between;
+    margin-top: 7rem;
+}
+.join{
     flex:0 0 29%;
-    margin: 0;
- }
- .start{
+}
+.join, img{
     margin-bottom: 1.2rem;
     width: 3.6rem;
- }
- img{
-    /* height: auto; */
-    /* max-width: 100%; */
- }
- h2{
+}
+.discuss{
     padding-bottom: 0.6rem;
+}
+.anywhere{
     font-size: 1.7rem;
-    font-family: 'inter-bold', sans-serif;
-    /* letter-spacing: 0.8rem; */
-    /* font-weight: 700; */
-    display: block;
-    margin-block: 1rem;
- }
- .anywhere{
-    padding-bottom: 0.6rem;
-    font-size: 1.7rem;
-    font-family: 'inter-bold', sans-serif;
-    /* letter-spacing: 0.8rem; */
-    /* font-weight: 700; */
- }
- p{
-    font-size: 1.6rem;
-    /* line-height: 2.6rem; */
-    display: block;
-    font-family: 'inter_regular', sans-serif;
-    color: #637381;
-    margin-block: 1rem;
- }
+    font-family: 'inter_bold', sans-serif;
+
+}
 /* video and call section ends  */
 
 
