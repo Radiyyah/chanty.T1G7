@@ -340,9 +340,7 @@ p .easier{
     margin-block: 1rem;
 }
 .meet{
-    font-size: 2.4rem;
     padding-bottom: 1.2rem;
-    font-family:'inter_bold', sans-serif;
     font-weight: 700;
 }
 h2 .meet{
@@ -350,13 +348,12 @@ h2 .meet{
     margin-block: 0.83em;
 }
 .easier{
-    font-size: 1.6rem;
-    line-height: 2.4rem;
+    line-height: 1.4rem;
     color: #637381;
     font-family: 'inter_regular', sans-serif;
 }
 .voice{
-    margin-top: 4rem;
+    margin-top: 3rem;
     flex: 0 0 50%;
 }
 .voice img{
@@ -374,22 +371,25 @@ img video calls {
     flex-direction: column;
     display: flex;
     justify-content: space-between;
-    margin-top: 7rem;
+    margin-top: 5rem;
 }
 .join{
     flex:0 0 29%;
 }
 .join, img{
     margin-bottom: 1.2rem;
-    width: 3.6rem;
 }
 .discuss{
     padding-bottom: 0.6rem;
 }
 .anywhere{
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     font-family: 'inter_bold', sans-serif;
 
+}
+.with{
+    color: #637381;
+    line-height: 1.6rem;
 }
 /* video and call section ends  */
 
@@ -618,73 +618,71 @@ div .book-a-demo{
 
 
  /* media starts  */
- @media screen and (max-width: 1024px){
-    .chant{
-        overflow: hidden;
-        padding: 12rem 0 10rem;
-        position: relative;
-        display: block;
+/* voice and video section starts  */
+@media screen and (max-width:768px){
+    .chant1{
+        padding: 9.2rem 0;
+    }
+    .circlevideo{
+        padding-right: 2rem;
     }
     .anyy{
-        padding: 0 4rem;
-        width: auto;
-        margin: 0 auto;
-        display: block;
+        padding: 0 2.8rem;
     }
-    .all{
-        /* display: flex; */
-        justify-content: space-between;
-        margin-top: 7rem;
-        /* flex-direction: column; */
-    }
-    .show{
-        align-items: center;
-        display: flex;
-        justify-content: space-between;
-    }
-    .circlevideo{
-        flex: 0 0 45%;
-        display: block;
-    }
-    .meet{
-        font-size: 3.2rem;
-        padding-bottom: 2.2rem;
-    }
-    h2{
-        display: block;
-    }
-    .easier{
-        font-size: 1.8rem;
-    }
-    .voice{
-        width: 427px;
-        height: 295px;
-    }
-    .anywhere{
-        padding-bottom: 0.6rem;
-        font-size: 1.8rem;
-    }
-    img{
-        margin-bottom:1.2rem ;
-        width:3.6rem ;
-    }
-    h3{
-        display: block;
-    }
-    .with{
-        font-size: 1.6rem;
-    }
- }
- @media screen and (max-width: 1440px){
-    .chant{
-        padding: 0 1.5rem;
+    .voice img{
+        display: inline-flex;
         flex-direction: column;
     }
-    .circlevideo{
-
+    .meet{
+        font-size: 2.2rem;
     }
- }
- 
+    .easier{
+        line-height: 1.8rem;
+        font-size: 1.2rem;
+    }
+    img {
+        max-width: 100%;
+    }
+    .all{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media screen and (max-width:1024px) {
+    .anyy{
+        padding: 0 3rem;
+        width: auto;
+    }
+    .show{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .call{
+        font-size: 1rem;
+        font-family: sans-serif;
+    }
+    .meet{
+        font-size: 1.8rem;
+    }
+    .easier{
+        line-height: 1.6rem;
+        font-size: 1.1rem;
+    }
+    .voice img{
+        display: inline-block;
+    }
+    .all{
+        flex-direction: row;
+        padding-left: 0.8rem;
+    }
+    .anywhere{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+}
+/* voice and video section ends  */
  
  /*  media ends  */
 
