@@ -839,7 +839,203 @@
 /* MAIN STYLING STARTS */
 
 /* video and call section starts */
+.video-text-and-image{
+  background-color: hsl(209, 57%, 91%);
+  padding:80px 15px ;
+}
+.voice-and-video-calls-text p{
+  color: var(--Blue);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 22px;
+}
+.its-easier-to-see{
+  color: #637381;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 15px;
+  padding-bottom: 40px;
+  width: 325px;
+}
+.dev-and-product-image img{
+  width: 345px;
+}
+@media screen and (min-width:768px){
+  .video-text-and-image{
+    background-color: hsl(209, 57%, 91%);
+    padding:80px 40px ;
+  } 
+  .voice-and-video-calls-text p{
+    color: var(--Blue);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+  }
+  .meet-more-efficiently-text h2{
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .its-easier-to-see{
+    width: 688px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .dev-and-product-image img{
+    width: 500px;
+    margin: 0 100px;
+  }
+}
+.voice-and-video-call-logos{
+  background-color: #fdfafa;
+  padding: 0 15px;
+  padding-bottom:75px;
+}
+.voice-and-video-call-logos  img{
+  width: 36px ;
+  margin: 40px 0 15px 0;
+}  
+.voice-and-video-call-logos h3 {
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+.voice-and-video-call-logos p{
+  color: #637381;
+  line-height: 26px;
+}
 
+.join-anywhere-logo{
+  padding-top: -100px;
+}
+@media screen and (min-width:768px) {
+  .voice-and-video-call-logos{
+    /* display: flex; */
+    display: grid;
+    grid-template-areas: "a b c";
+    column-gap: 40px;
+    background-color: hsl(209, 57%, 91%);
+    /* background-color: #fdfafa; */
+    padding: 0 45px;
+    padding-bottom:75px;
+  }
+  .voice-and-video-call-logos  img{
+    width: 56px ;
+    margin: 0 0 15px 0;
+  }  
+  .voice-and-video-call-logos h3 {
+    font-size: 18px;
+  }
+  .voice-and-video-call-logos p{
+    color: #637381;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .join-anywhere{
+    grid-area: a;
+   }
+  .present-and-discuss{
+    grid-area: b;
+  }
+  .k-video-and-audio{
+   grid-area: c;
+  }
+}
+@media  screen and (min-width:1024px) {
+  .video-text-and-image{
+    display: grid;
+    grid-template-areas: "f e";
+    column-gap: 60px;
+    padding-top: 120px;
+    padding-bottom: 70px;
+  }
+  .meet-more-efficiently{
+    grid-area: f;
+    width: 424.8px;
+    padding-top: 20px;
+  }
+  .meet-more-efficiently{
+    padding-top: 30px;
+  }
+  .meet-more-efficiently p{
+    width: 424.8px;
+  }
+  .its-easier-to-see p{
+    padding-top: 0;
+  }
+  .dev-and-product-image img{
+    grid-area: e;
+    width: 100%;
+    margin: 0;
+  }
+  .voice-and-video-call-logos{
+    display: grid;
+    grid-template-areas: "a b c";
+    column-gap: 60px;
+    background-color: hsl(209, 57%, 91%);
+    /* background-color: #fdfafa; */
+  }
+  .join-anywhere{
+    grid-area: a;
+   }
+  .present-and-discuss{
+    grid-area: b;
+  }
+  .k-video-and-audio{
+   grid-area: c;
+  }
+}
+@media screen and (min-width:1440px) {
+  .video-text-and-image{
+    display: grid;
+    grid-template-areas: "f e";
+    column-gap: 160px;
+    padding: 120px 120px 70px 120px;
+  }
+  .voice-and-video-calls-text p{
+    font-size: 16px;
+    padding-bottom:5px ;
+  }
+  .meet-more-efficiently{
+    grid-area: f;
+    width: 540px;
+  }
+  .meet-more-efficiently{
+    padding-top: 30px;
+  }
+  .meet-more-efficiently-text h2{
+    font-size: 42px;
+    line-height: 50px;
+  }
+  .its-easier-to-see p{
+    font-size: 22px;
+    line-height: 32px;
+    width: 540px;
+    padding-top: 0;
+  }
+  .dev-and-product-image img{
+    grid-area: e;
+    width: 500px;
+    margin: 0;
+  }
+  .voice-and-video-call-logos{
+    display: grid;
+    grid-template-areas: "a b c";
+    column-gap: 75px;
+    background-color: hsl(209, 57%, 91%);
+    padding-left: 120px;
+    padding-right: 120px;
+    /* background-color: #fdfafa; */
+  }
+  .join-anywhere{
+    grid-area: a;
+   }
+  .present-and-discuss{
+    grid-area: b;
+  }
+  .k-video-and-audio{
+   grid-area: c;
+  }
+}
 /* video and call section ends  */
 
 
