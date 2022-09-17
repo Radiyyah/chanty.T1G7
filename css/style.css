@@ -1777,7 +1777,409 @@
 
 
 /* testimonial section starts  */
+  /* Testimonial start */
 
+/* slideshow containing the testimony about Chanty */
+
+.slide-container{
+  position: relative;
+  max-width: 375px;
+}
+@media screen and (min-width: 768px){
+  .slide-container{
+      max-width: 768px;
+      width: 100%;
+  }
+}
+@media screen and (min-width: 1024px){
+  .slide-container{
+      max-width: 1024px;
+  }
+}
+@media screen and (min-width: 1440px){
+  .slide-container{
+      max-width: 1440px;
+  }
+}
+@media screen and (min-width: 2560px){
+  .slide-container{
+      max-width: 2560px;
+  }
+}
+.container{
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slide-content{
+  overflow: hidden;
+}
+.card{
+  position: absolute;
+  margin: auto;
+  width: 345px;
+  height: 256px;
+  right: 70px;
+  padding: 10px 0px;
+  margin: 40px 250px;
+}
+@media screen and (min-width: 2560px){
+  .card{
+      margin: 40px 2px;
+  }
+}
+
+.card-content{
+  /* position: relative; */
+
+  display: flex;
+  flex-direction: column;
+  width: 345px;
+  height: 613.16px;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+}
+@media screen and (min-width: 768px){
+  .card-content{
+      border: 1px solid #000;
+      width: 400px;
+      height: 550px;
+  }
+}
+@media screen and (min-width: 1440px){
+  .card-content{
+      width: 500px;
+      height: 500px;
+  }
+}
+@media screen and (min-width: 2560px){
+  .card-content{
+      width: 550px;
+  }
+}
+.card-content p{
+  line-height: 30px;
+  /* width: 345px;
+  height: 256px; */
+  padding: 15px;
+}
+.card-content span{
+  line-height: 30px;
+}
+.profile{
+  position: absolute;
+  width: 245px;
+  height: 121.56px;
+  bottom: 10%;
+  left: 50%;
+}
+@media screen and (min-width: 768px){
+  .profile{
+      bottom: 40%;
+      width: 345px;
+      height: 21.56px;
+      left: 10%;
+  }
+}
+@media screen and (min-width: 1024px){
+  .profile{
+      left: 8%;
+  }
+}
+@media screen and (min-width: 1440px){
+  .profile{
+      left: 15%;
+  }
+}
+@media screen and (min-width: 2560px){
+  .profile{
+      left: 13%;
+  }
+}
+
+.profile-image{
+  padding-bottom: 10px;
+}
+.profile-image img{
+  width: 64px;
+  height: 64px;
+}
+.profile h2{
+  padding-bottom: 10px;
+}
+.profile span{
+  position: relative;
+  padding: 10px;
+  margin-bottom: 10px;
+  height: 39.19px;
+}
+.logo-image{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.logo-image img{
+  width: 50px;
+  height: 50px;
+}
+.content{
+  position: absolute;
+  left: 5%;
+}
+
+.profile-content{
+  position: absolute;
+  bottom: 0;
+  left: 80%;
+}
+@media screen and (min-width: 768px){
+  .profile-content{
+      left: 40%;
+      width: 200px;
+  }
+  .content{
+      width: 250px;
+      left: 35%;
+  }
+}
+@media screen and (min-width: 1024px){
+  .profile-content{
+      left: 25%;
+  }
+}
+@media screen and (min-width: 1440px){
+  .profile-content{
+      left: 30%;
+  }
+}
+@media screen and (min-width: 2560px){
+  .profile-content{
+      left: 20%;
+  }
+}
+.update{
+  position: absolute;
+  left: 5%;
+}
+
+
+/* images containing crozdeck High perfomer and Top performer logo */
+.logo-container{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+
+}
+.logo-container .img{
+  display: flex;
+  justify-content: center;
+}
+.logo-container img{
+  height: 60px;
+  width: 60px;
+  margin: 20px;
+}
+@media screen and (min-width: 2560px){
+  .logo-container img{
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+  }
+}
+/* Section containing the security details */
+.security-details{
+  margin-top: 50px;
+  background-color: #f4f8fe;
+  background-image: url(../asset/images/svg/integrations-bg.svg);
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 150.3rem;
+  height: 355px;
+  width: 100%;
+  padding-top: 11.7rem;
+  position: relative;
+  z-index: 0;
+  /* overflow-x: hidden; */
+}
+@media screen and (min-width: 768px){
+  .security-details{
+      min-height: 110.3rem;
+  }
+}
+.seamless-integration{
+  position: relative;
+  margin-bottom: 130px;
+}
+@media screen and (min-width: 768px){
+  .seamless-integration{
+      height: 248px;
+  }
+}
+.seamless-integration h2{
+  text-align: center;
+  padding: 0px 0px 0px 22px;
+  font-family: 'Inter_bold', Arial, Helvetica, sans-serif;
+}
+.seamless-integration p{
+  text-align: center;
+  font-family: 'Inter_bold', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 20px auto 57px auto;
+  line-height: 35px;
+
+}
+.seamless-integration a{
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  left: 25%;
+  font-family: 'Inter_bold', Arial, Helvetica, sans-serif;
+  transition: 300ms;
+}
+@media screen and (min-width: 768px){
+  .seamless-integration a{
+      left: 40%;
+  }
+}
+@media screen and (min-width: 1024px){
+  .seamless-integration a{
+      left: 42%;
+  }
+}
+@media screen and (min-width: 1440px){
+  .seamless-integration a{
+      left: 45%;
+  }
+}
+.seamless-integration a:hover{
+  color: #fff;
+  background-color: var(--green);
+}
+.security{
+  position: relative;
+  top: 200px;
+  margin: 50px 0 50px 0;
+}
+
+.security h3{
+  color: var(--blue);
+  height: 22px;
+  text-align: center;
+  font-family: 'Inter_bold', Arial, Helvetica, sans-serif;
+}
+.security h2{
+  text-align: center;
+  margin: 10px 10px 0px;
+  font-family: 'Inter_bold', Arial, Helvetica, sans-serif;
+}
+.security p{
+  position: relative;
+  line-height: 25px;
+  text-align: center;
+  margin: 10px;
+  font-family: 'Inter_regular', Arial, Helvetica, sans-serif;
+  
+}
+.security-data{
+  position: relative;
+  top: 200px;
+  margin: 50px 30px 20px 0;
+}
+@media screen and (min-width: 2560px){
+  .security-data{
+      margin-left: 200px;
+  }
+}
+
+.sub-sec1 , .sub-sec2{
+  width: 370px;
+}
+@media screen and (min-width: 768px){
+  .sub-sec1 , .sub-sec2{
+      display: flex;
+      width: 270px;
+  }
+  .section1 , .section2{
+      display: flex;
+  }
+  .sub-sec1 img , .sub-sec2 img{
+      padding: 10px;
+  }
+}
+@media screen and (min-width: 1024px){
+  .sub-sec1 , .sub-sec2{
+      width: 370px;
+  }
+}
+@media screen and (min-width: 1440px){
+  .sub-sec1 , .sub-sec2{
+      width: 470px;
+  }
+}
+@media screen and (min-width: 2560px){
+  .sub-sec1 , .sub-sec2{
+      width: 670px;
+  }
+}
+.section1{
+  margin-bottom: 30px;
+}
+.sub-sec2{
+  position: relative;
+ 
+}
+@media screen and (min-width: 768px){
+  .sub-sec2{
+       left: 25%;
+  }
+  .sub-sec1 img , .sub-sec2 img{
+      padding: 20px;
+  }
+}
+@media screen and (min-width: 1440px){
+  .sub-sec2{
+      left: 35%;
+ }
+}
+
+.text{
+  padding: 30px 10px;
+}
+@media screen and (min-width: 768px){
+  .text{
+      padding: 10px;
+  }
+}
+.text h1{
+  font-family: 'Inter_bold', Arial, Helvetica, sans-serif; 
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px){
+  .text h1{
+      font-size: 25px;
+  }
+}
+.text p{
+  font-family: 'Inter_bold', Arial, Helvetica, sans-serif;
+  line-height: 28px;
+}
+@media screen and (min-width: 768px){
+  .text p{
+      font-size: 16px;
+  }
+}
+
+
+
+/* Testimonial ends */
 /* testimonial section ends  */
 
   

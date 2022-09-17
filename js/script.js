@@ -61,7 +61,26 @@ dropdown.onclick = function(){
 // NAV BAR ENDS
 // HEADER JS ENDS
 // main starts
+// Testimonial start
+var swiper = new Swiper(".slide-content", {
+  slidesPerView: 3,
+  spaceBetween: 25,
+  loop: true,
+  centerSlide: 'true',
+  fade: 'true',
+  grabCursor: 'true',
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
 
+// testimonial ends 
 // pricing section starts
 function myFunction() {
     var element = document.getElementById("normal");
