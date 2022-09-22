@@ -1762,7 +1762,7 @@ nav {
 
 /* slideshow containing the testimony about Chanty */
 
-.slide-container{
+/* .slide-container{
   position: relative;
   max-width: 375px;
 }
@@ -1941,11 +1941,11 @@ nav {
 .update{
   position: absolute;
   left: 5%;
-}
+} */
 
 
 /* images containing crozdeck High perfomer and Top performer logo */
-.logo-container{
+/* .logo-container{
   display: flex;
   justify-content: center;
   margin: auto;
@@ -1968,7 +1968,7 @@ nav {
   }
 } */
 /* Section containing the security details */
-.security-details{
+/* .security-details{
   margin-top: 50px;
   background-color: #f4f8fe;
   background-image: url(../asset/images/svg/integrations-bg.svg);
@@ -1981,7 +1981,6 @@ nav {
   padding-top: 11.7rem;
   position: relative;
   z-index: 0;
-  /* overflow-x: hidden; */
 }
 @media screen and (min-width: 768px){
   .security-details{
@@ -2155,19 +2154,318 @@ nav {
   .text p{
       font-size: 16px;
   }
+} */
+
+
+
+/* Testimonial ends for Mishesl */
+/* testimonial section ends  */
+
+/* testimonial section starts  */
+.testiminial-section{
+  /* background-color: black; */
+  padding: 0 15px;
+}
+.this-is-what-they-have-to-say h2{
+  text-align: center;
+  padding-top: 55px;
+  padding-bottom: 50px;
+}
+.melinda-self-card{
+  display:flex;
+  flex-direction: column-reverse;
+  text-align: center;
+}
+.melinda-text{
+  font-size:18px ;
+  line-height: 32px;
+  color: #637381;
+}
+.melinda-image img{
+  width: 64px;
+}
+.melida-company-logo img{
+  width: 141px;
+  padding-top: 50px;
+}
+.name p{
+  font-size: 18px;
+  font-weight: 700;
+  color:#29343f;
+  line-height: 25px;
+}
+.company-name{
+  font-size: 14px;
+  color: #637381;
+  line-height: 20px;
 }
 
 
+.fabian-krieger-card{
+  display:flex;
+  flex-direction: column-reverse;
+  text-align: center;
+}
+.fabian-krieger-text p{
+  font-size:18px ;
+  line-height: 32px;
+  color: #637381;
+}
+.fabian-krieger-image img{
+  width: 64px;
+}
+.fabian-krieger-company-logo img{
+ width: 126px;
+ padding-top: 15px; 
+}
 
-/* Testimonial ends */
+.jacob-hopson-card{
+  display:flex;
+  flex-direction: column-reverse;
+  text-align: center;
+}
+.jacob-hopson-text{
+  font-size:18px ;
+  line-height: 32px;
+  color: #637381;
+}
+.jacob-hopson-image img{
+  width: 64px;
+}
+.jacob-hopson-company-logo img{
+ width: 56px;
+ padding-top: 15px; 
+}
+.julia-dadds-card{
+  display:flex;
+  flex-direction: column-reverse;
+  text-align: center;
+}
+.julia-dadds-text p{
+  font-size:18px ;
+  line-height: 32px;
+  color: #637381;
+}
+.julia-dadds-image img{
+  width: 64px;
+}
+.julia-dadds-company-logo img{
+ width: 72px;
+ padding-top: 15px; 
+}
+
+.Amilcar-De-Carvaralho-card{
+  display:flex;
+  flex-direction: column-reverse;
+  text-align: center;
+}
+.Amilcar-De-Carvaralho-text p{
+  font-size:18px ;
+  line-height: 32px;
+  color: #637381;
+}
+.Amilcar-De-Carvaralho-image img{
+  width: 64px;
+}
+.Amilcar-De-Carvaralho-company-logo img{
+ width: 140px;
+ padding-top: 45px; 
+}
+
+.David-oragui-card{
+  display:flex;
+  flex-direction: column-reverse;
+  text-align: center;
+  height: 568;
+}
+.David-oragui-text{
+  font-size:18px ;
+  line-height: 32px;
+  color: #637381;
+}
+.David-oragui-image img{
+  width: 64px;
+}
+.David-oragui-company-logo img{
+ width:141px;
+ padding-top: 45px; 
+}
+
+.Tu-Bui-card{
+  display:flex;
+  flex-direction: column-reverse;
+  text-align: center;
+}
+.Tu-Bui-text p{
+  font-size:18px ;
+  line-height: 32px;
+  color: #637381;
+}
+.Tu-Bui-image img{
+  width: 64px;
+}
+.swipper-one, .swipper-two,.swipper-three,.swipper-four,.swipper-five,.swipper-six,.swipper-seven{
+  display: inline-block;
+  height: 2px;
+  width: 24px;
+  background-color: blue;
+  margin: 50px 10px;
+  /* padding: 14px 0; */
+  /* position: relative; */
+}
+.swipper-one,.swipper-two:hover{
+  background-color: black;
+}
+
+.swipper-pagenationn {
+  display: block;
+  height: 2px;
+  width: 24px;
+  background-color: blue;
+  position: relative;
+  margin: 0 5px;
+}
+
+.Tu-Bui-company-logo img{
+ width: 141px;
+ padding-top: 15px; 
+}
+
+.award-list ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+.award-list img{
+  width: 80px;
+}
+.steamless-integration-with-your-favourite-sofware-main{
+  background-color: var(--Grayish);
+  background-image: url(../asset/images/svg/integrations-bg.svg);
+  background-repeat: no-repeat;
+  background-position: cover;
+  margin: 70px  0 30px 0;
+
+}
+
+.steamless-integration-with-your-favourite-sofware{
+  text-align: center;
+  padding-top: 90px;
+}
+.steamless-integration h2{
+  padding: 0 29px 22px 29px;
+  line-height: 30px;
+}
+.getting-started-is-easy p{
+  line-height:24px;
+  color: #637381;
+  font-weight: 400;
+  padding-bottom: 32px;
+}
+.explore-integration button{
+  /* padding: 0 50px; */
+  width: 262px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 42px;
+  background-color: transparent;
+  border:1px solid #b4bec8;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+.security{
+  margin: 0 10px;
+  text-align: center;
+}
+.security-text{
+  color: #3079ED;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 22px;
+}
+.enterprise-grade{
+  font-weight: 700;
+  line-height: 30px;
+  padding-bottom: 22px; 
+}
+
+
+.trust-chanty-to-keep p{ 
+  color: #637381;
+}
+.logos-and-meaning{
+  margin: 0 15px;
+}
+.own-your-data{
+  margin-top: 40px;
+}
+.own-your-data-logo{
+  margin-bottom: 20px;
+}
+.own-your-data-text h3{
+  padding-bottom: 6px;
+  font-size: 18px;
+}
+.own-your-data-text p{
+  color: #637381;
+  line-height: 26px;
+  font-weight: 400;
+}
+.zero-moderation{
+  margin-top: 40px;
+}
+.zero-moderation-logo{
+  margin-bottom: 20px;
+}
+.zero-moderation-text h3{
+  padding-bottom: 6px;
+  font-size: 18px;
+}
+.zero-moderation-text p{
+  color: #637381;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.eu-general-data-protection-regulation{
+  margin-top: 40px;
+}
+.eu-general-data-protection-regulation-logo{
+  margin-bottom: 20px;
+}
+.eu-general-data-protection-regulation-text h3{
+  padding-bottom: 6px;
+  font-size: 18px;
+}
+.eu-general-data-protection-regulation-text p{
+  color: #637381;
+  line-height: 26px;
+  font-weight: 400;
+}
+.encrypted-transactions{
+  margin-top: 40px;
+}
+.encrypted-transactions-logo{
+  margin-bottom: 20px;
+}
+.encrypted-transactions-text h3{
+  padding-bottom: 6px;
+  font-size: 18px;
+}
+.encrypted-transactions-text p{
+  color: #637381;
+  line-height: 26px;
+  font-weight: 400;
+  padding-bottom: 75px;
+}
 /* testimonial section ends  */
 
 /* pricing section starts  */
 .pricing {
-  padding-top: 70px;
+  padding-top: 20px;
 }
 .pricing-text {
-  padding: 70px 20px 20px 15px;
+  padding: 0 20px 20px 15px;
 }
 div .pricing {
   font-family: "Inter", sans-serif;
