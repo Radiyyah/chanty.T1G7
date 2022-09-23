@@ -2171,10 +2171,24 @@ nav {
   padding-top: 55px;
   padding-bottom: 50px;
 }
+.profile-container{
+  overflow: hidden;
+  width: 348px;
+  height: 563.56px;
+}
+.prof{
+  position: relative;
+  top: 50%;
+  left: 10px;
+  transform: translate(-50% -50%);
+}
 .melinda-self-card{
   display:flex;
   flex-direction: column-reverse;
   text-align: center;
+  
+  height:568.88px;
+
 }
 .melinda-text{
   font-size:18px ;
@@ -2304,26 +2318,30 @@ nav {
 .Tu-Bui-image img{
   width: 64px;
 }
-.swipper-one, .swipper-two,.swipper-three,.swipper-four,.swipper-five,.swipper-six,.swipper-seven{
-  display: inline-block;
+/* .swipper-one, .swipper-two,.swipper-three,.swipper-four,.swipper-five,.swipper-six,.swipper-seven{ */
+ 
+ .pper{ display: inline-block;
   height: 2px;
   width: 24px;
-  background-color: blue;
+  background-color: #a2b9d2;
   margin: 50px 10px;
-  /* padding: 14px 0; */
-  /* position: relative; */
+  cursor: pointer;
+  transition: 0.4s;
 }
-.swipper-one,.swipper-two:hover{
-  background-color: black;
+.pper:hover{
+  background-color:var(--Blue);
 }
 
-.swipper-pagenationn {
-  display: block;
-  height: 2px;
-  width: 24px;
-  background-color: blue;
+.swipper-pagenation{
+  /* display: block; */
+  /* height: 2px; */
+  /* width: 24px; */
+  /* background-color: blue; */
+  /* position: relative; */
+  /* padding: 0 15px; */
   position: relative;
-  margin: 0 5px;
+  left: 15px;
+  transform: translateX(-1%);
 }
 
 .Tu-Bui-company-logo img{
