@@ -2163,7 +2163,6 @@ nav {
 
 /* testimonial section starts  */
 .testiminial-section{
-  /* background-color: black; */
   padding: 0 15px;
 }
 .this-is-what-they-have-to-say h2{
@@ -2171,24 +2170,38 @@ nav {
   padding-top: 55px;
   padding-bottom: 50px;
 }
+@media screen and (min-width:768px) {
+  .this-is-what-they-have-to-say h2{
+    font-size: 32px;
+  }
+}
 .profile-container{
   overflow: hidden;
-  width: 348px;
-  height: 563.56px;
+  /* height: 563.56px; */
+  
 }
 .prof{
   position: relative;
   top: 50%;
-  left: 10px;
+
   transform: translate(-50% -50%);
 }
+.cards{
+  position: relative;
+  width: 348px;
+  background-color: black;
+  height: 100%;
+  margin: 10px 15px;
+
+}
+
+
+
 .melinda-self-card{
   display:flex;
   flex-direction: column-reverse;
-  text-align: center;
-  
-  height:568.88px;
-
+  text-align: center;  
+  /* height:568.88px; */
 }
 .melinda-text{
   font-size:18px ;
@@ -2202,6 +2215,7 @@ nav {
   width: 141px;
   padding-top: 50px;
 }
+
 .name p{
   font-size: 18px;
   font-weight: 700;
@@ -2214,17 +2228,18 @@ nav {
   line-height: 20px;
 }
 
-
 .fabian-krieger-card{
   display:flex;
   flex-direction: column-reverse;
   text-align: center;
 }
+
 .fabian-krieger-text p{
   font-size:18px ;
   line-height: 32px;
   color: #637381;
 }
+
 .fabian-krieger-image img{
   width: 64px;
 }
@@ -2320,7 +2335,8 @@ nav {
 }
 /* .swipper-one, .swipper-two,.swipper-three,.swipper-four,.swipper-five,.swipper-six,.swipper-seven{ */
  
- .pper{ display: inline-block;
+ .pper{ 
+  display: inline-block;
   height: 2px;
   width: 24px;
   background-color: #a2b9d2;
@@ -2331,7 +2347,10 @@ nav {
 .pper:hover{
   background-color:var(--Blue);
 }
-
+.Tu-Bui-company-logo img{
+ width: 141px;
+ padding-top: 15px; 
+}
 .swipper-pagenation{
   /* display: block; */
   /* height: 2px; */
@@ -2343,19 +2362,40 @@ nav {
   left: 15px;
   transform: translateX(-1%);
 }
-
-.Tu-Bui-company-logo img{
- width: 141px;
- padding-top: 15px; 
+@media screen  and (min-width:768px){
+  .swipper-pagenation{
+    padding: 0 40px;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
 }
-
 .award-list ul{
   display: flex;
   justify-content: space-between;
+  padding: 0 15px;
 }
-
+@media screen and (min-width:768px) {
+  .award-list ul{
+    width: 564px;
+    margin: 0 auto;
+  }
+}
 .award-list img{
   width: 80px;
+}
+@media screen  and (min-width:768px){
+  .award-list img{
+    width: 100px;
+  }
+}
+.award-list .topPerformer img{
+  width: 100px;
+}
+@media screen  and (min-width:768px){
+  .award-list .topPerformer img{
+    width: 115px;
+  }
 }
 .steamless-integration-with-your-favourite-sofware-main{
   background-color: var(--Grayish);
@@ -2374,11 +2414,27 @@ nav {
   padding: 0 29px 22px 29px;
   line-height: 30px;
 }
+@media screen  and (min-width:768px){
+  .steamless-integration h2{
+    padding: 0 173px 22px 173px;
+    line-height: 42px;
+    font-size: 32px;
+  }
+}
 .getting-started-is-easy p{
   line-height:24px;
   color: #637381;
   font-weight: 400;
   padding-bottom: 32px;
+}
+@media screen  and (min-width:768px){
+  .getting-started-is-easy p{
+    line-height: 28px;
+    font-weight: 400;
+    padding-bottom: 32px;
+    font-size: 18px;
+    margin: 0 84px;
+  }
 }
 .explore-integration button{
   /* padding: 0 50px; */
@@ -2395,27 +2451,67 @@ nav {
   margin: 0 10px;
   text-align: center;
 }
+@media screen  and (min-width:768px){
+  .security-text p{
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 4px;
+  }
+}
 .security-text{
   color: #3079ED;
   font-size: 12px;
   font-weight: 700;
   line-height: 22px;
 }
-.enterprise-grade{
+@media screen  and (min-width:768px){
+  .security-text p{
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 4px;
+  }
+}
+.enterprise-grade h2{
   font-weight: 700;
   line-height: 30px;
   padding-bottom: 22px; 
 }
 
-
+@media screen  and (min-width:768px){
+  .enterprise-grade h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    padding-bottom: 22px; 
+  }
+}
 .trust-chanty-to-keep p{ 
   color: #637381;
+}
+@media screen  and (min-width:768px){
+  .trust-chanty-to-keep p{ 
+    color: #637381;
+    font-size: 18px;
+  }
 }
 .logos-and-meaning{
   margin: 0 15px;
 }
+@media screen  and (min-width:768px){
+  .logos-and-meaning{
+    margin: 0 40px;
+    display: grid;
+    grid-template-areas: "a b" "c d";
+    column-gap: 70px;
+  }
+}
 .own-your-data{
   margin-top: 40px;
+}
+@media screen  and (min-width:768px){
+  .own-your-data{
+    grid-area: a;
+  }
 }
 .own-your-data-logo{
   margin-bottom: 20px;
@@ -2431,6 +2527,12 @@ nav {
 }
 .zero-moderation{
   margin-top: 40px;
+}
+
+@media screen  and (min-width:768px){
+  .zero-moderation{
+    grid-area: b;
+  }
 }
 .zero-moderation-logo{
   margin-bottom: 20px;
@@ -2448,6 +2550,11 @@ nav {
 .eu-general-data-protection-regulation{
   margin-top: 40px;
 }
+@media screen  and (min-width:768px){
+  .eu-general-data-protection-regulation{
+    grid-area: c;
+  }
+}
 .eu-general-data-protection-regulation-logo{
   margin-bottom: 20px;
 }
@@ -2463,6 +2570,11 @@ nav {
 .encrypted-transactions{
   margin-top: 40px;
 }
+@media screen  and (min-width:768px){
+  .encrypted-transactions{
+   grid-area: d;
+  }
+}
 .encrypted-transactions-logo{
   margin-bottom: 20px;
 }
@@ -2475,6 +2587,11 @@ nav {
   line-height: 26px;
   font-weight: 400;
   padding-bottom: 75px;
+}
+@media screen and (min-width:768px) {
+  .encrypted-transactions-text p{
+    padding-bottom: 125px;
+  } 
 }
 /* testimonial section ends  */
 
