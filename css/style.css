@@ -545,7 +545,11 @@ nav {
     white-space: nowrap;
   }
 }
-
+@media screen and (min-width: 1450px) {
+  .get-more h1 {
+    font-size: 77px;
+  }
+}
 .join-chanty {
   color: var(--Grayish);
   font-size: 18px;
@@ -583,6 +587,14 @@ nav {
     white-space: nowrap;
   }
 }
+@media screen and (min-width: 1440px) {
+  .join-chanty {
+    line-height: 40px;
+    font-size: 29px;
+    white-space: nowrap;
+    font-weight: 300;
+  }
+}
 .button-free-sign-up button {
   width: 100%;
   background-color: var(--Green);
@@ -604,6 +616,13 @@ nav {
     width: 130px;
     padding: 20px 15px;
     font-size: 16px;
+  }
+}
+@media screen and (min-width: 1450px) {
+  .button-free-sign-up button {
+    width: 150px;
+    padding: 20px 15px;
+    font-size: 18px;
   }
 }
 .discord-function {
@@ -683,6 +702,33 @@ nav {
     top: 206px;
   }
 }
+
+@media screen and (min-width: 1450px) {
+  #discord-function {
+    display: block;
+  }
+  #discord-image img {
+    width: 1045px;
+    margin-top: 0;
+    position: relative;
+    left: 190px;
+    top: 55px;
+    margin-top: 20px;
+  }
+  #austin-watkins img {
+    width: 325px;
+    position: absolute;
+    left: 778px;
+    top: 710px;
+  }
+  #task-in-main-board img {
+    width: 299px;
+    position: absolute;
+    left: 828px;
+    top: 230px;
+  }
+}
+
 .chanty-to-be-more-productive {
   color: var(--White);
   font-size: 24px;
@@ -706,6 +752,11 @@ nav {
 @media screen and (min-width: 1440px) {
   .chanty-to-be-more-productive {
     font-size: 42px;
+  }
+}
+@media screen and (min-width: 1450px) {
+  .chanty-to-be-more-productive {
+    font-size: 47px;
   }
 }
 /* get-more-work-done-together styling section ends */
@@ -732,6 +783,11 @@ nav {
 @media screen and (min-width: 1440px) {
   #paterners-logos {
     column-gap: 70px;
+  }
+}
+@media screen and (min-width: 1450px) {
+  #paterners-logos {
+    column-gap: 80px;
   }
 }
 .paterners-logos img {
@@ -763,12 +819,22 @@ nav {
     width: 116px;
   }
 }
+@media screen and (min-width: 1450px) {
+  .oracle-logo img {
+    width: 130px;
+  }
+}
 .tata-logo {
   grid-area: b;
 }
 @media screen and (min-width: 1024px) {
   .tata-logo img {
     width: 64px;
+  }
+}
+@media screen and (min-width: 1450px) {
+  .tata-logo img {
+    width: 74px;
   }
 }
 .nasa-logo {
@@ -779,12 +845,21 @@ nav {
     width: 100px;
   }
 }
+@media screen and (min-width: 1024px) {
+  .nasa-logo img {
+    width: 110px;
+  }
+}
 .manchester-logo {
   grid-area: d;
 }
 @media screen and (min-width: 1024px) {
   .manchester-logo img {
     width: 70px;
+  }
+}@media screen and (min-width: 1450px) {
+  .manchester-logo img {
+    width: 110px;
   }
 }
 .salesforce-logo {
@@ -795,10 +870,20 @@ nav {
     width: 83px;
   }
 }
+@media screen and (min-width: 1450px) {
+  .salesforce-logo img {
+    width: 90px;
+  }
+}
 .govthech {
   grid-area: f;
 }
 @media screen and (min-width: 1024px) {
+  .gov-tech-logo img {
+    width: 80px;
+  }
+}
+@media screen and (min-width: 1450px) {
   .gov-tech-logo img {
     width: 80px;
   }
@@ -811,12 +896,22 @@ nav {
     width: 78px;
   }
 }
+@media screen and (min-width: 1024px) {
+  .mit-logo img {
+    width: 88px;
+  }
+}
 .nike-logo {
   grid-area: h;
 }
 @media screen and (min-width: 1024px) {
   .nike-logo img {
     width: 100px;
+  }
+}
+@media screen and (min-width: 1450px) {
+  .nike-logo img {
+    width: 110px;
   }
 }
 /* paterners-logos ends */
@@ -1755,6 +1850,177 @@ nav {
     color: rgb(33, 43, 54);
   }
 }
+@media screen and (min-width: 1450px) {
+  .taskcontainer {
+    display: grid;
+    grid-template-areas: "l m";
+    column-gap: 120px;
+    margin: 20px 120px 20px 120px;
+  }
+  .create-and-manage {
+    grid-area: l;
+  }
+  .colouredtaskletter {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Inter", bold;
+    color: hsl(217, 84%, 56%);
+    padding-top: 30px;
+    padding-bottom: 5px;
+  }
+  .taskboldtext h3 {
+    font-size: 42px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    line-height: 50px;
+  }
+  .taskp p {
+    font-size: 22px;
+    font-weight: 400px;
+    color: hsl(208, 18%, 48%);
+    line-height: 32px;
+    padding-bottom: 10px;
+    padding-top: 0;
+  }
+  .desktoptaskimage img {
+    width: 600px;
+    height: 433.16px;
+    grid-area: m;
+    box-shadow: 0px 15px 40px -5px rgba(33, 39, 62, 0.167);
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  .mobiletaskimage img {
+    display: none;
+  }
+  .kabancontainer {
+    display: grid;
+    grid-template-areas: "a b c";
+    column-gap: 80px;
+    padding-top: 50px;
+  }
+  .kabanview {
+    grid-area: a;
+  }
+  .discuss {
+    grid-area: b;
+  }
+  .duedate {
+    grid-area: c;
+  }
+  .kabanp {
+    font-size: 16px;
+    font-weight: 400px;
+    color: hsl(208, 18%, 48%);
+    line-height: 26px;
+  }
+  .taskboldtext {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Inter", bold;
+    padding-bottom: 10px;
+  }
+  .kabanboldtext2 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Inter", bold;
+    padding-bottom: 15px;
+    padding-top: 28px;
+  }
+  .kabancontainer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin: 20px 120px 20px 120px;
+  }
+  .sucontainer {
+    display: block;
+    justify-content: center;
+    background-color: hsl(217, 84%, 56%);
+    background-image: url(https://cdn.chanty.com/landing/202209010837/images/hp/sign-up-cover.svg);
+    opacity: 60;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -4rem 40%;
+    border-radius: 16px;
+    position: relative;
+    height: 250px;
+    width: auto;
+    margin: 60px 120px 20px 120px;
+    box-shadow: 0px 15px 30px -5px rgba(127, 151, 247, 0.402);
+  }
+  .signuptext {
+    text-align: center;
+    font-family: "Inter", bold;
+    font-size: 42px;
+    color: white;
+    padding-top: 20px;
+    line-height: 50px;
+  }
+  .emailholder {
+    height: 60px;
+    width: 790px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    border: none;
+    padding-left: 15px;
+    margin: 30px 0 10px 120px;
+    font-size: 18px;
+    position: relative;
+    right: -50px;
+  }
+  .freesubmitbutton {
+    background-color: hsl(147, 65%, 44%);
+    color: white;
+    font-family: "Inter", normal;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    padding: 3px;
+    width: 130px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .sucontainer button {
+    position: relative;
+    left: 823px;
+    top: -66px;
+  }
+  .submitbutton:hover {
+    background-color: hsl(147, 81%, 29%);
+    opacity: 1;
+  }
+  .kabanimage {
+    height: 56px;
+    width: 56px;
+  }
+  .ratingscontainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 120px 50px 120px;
+    padding-top: 30px;
+  }
+  .appratings {
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(33, 43, 54);
+  }
+  .fivestars {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(33, 43, 54);
+  }
+  .ratingstars img{
+    width: 100px;
+  }
+  .rating-logos img{
+    width:65px;
+  }
+}
 /* tasks sections ends  */
 
 /* testimonial section starts  */
@@ -2175,6 +2441,18 @@ nav {
     font-size: 32px;
   }
 }
+@media screen and (min-width:1440px) {
+  .this-is-what-they-have-to-say h2{
+    font-size: 42px;
+    line-height: 50px;
+  }
+}
+@media screen and (min-width:1450px) {
+  .this-is-what-they-have-to-say h2{
+    font-size: 46px;
+    line-height: 50px;
+  }
+}
 .profile-container{
   overflow: hidden;
   /* height: 563.56px; */
@@ -2358,15 +2636,14 @@ nav {
   /* background-color: blue; */
   /* position: relative; */
   /* padding: 0 15px; */
-  position: relative;
-  left: 15px;
-  transform: translateX(-1%);
+  /* position: relative; */
+  /* left: 15px; */
+  /* transform: translateX(-1%); */
 }
 @media screen  and (min-width:768px){
   .swipper-pagenation{
     padding: 0 40px;
-    width: 60%;
-    margin: 0 auto;
+    text-align: center
   }
   
 }
@@ -2381,6 +2658,12 @@ nav {
     margin: 0 auto;
   }
 }
+@media screen and (min-width:1450px) {
+  .award-list ul{
+    width: 664px;
+    margin: 0 auto;
+  }
+}
 .award-list img{
   width: 80px;
 }
@@ -2389,12 +2672,22 @@ nav {
     width: 100px;
   }
 }
+@media screen  and (min-width:1450px){
+  .award-list img{
+    width: 113px;
+  }
+}
 .award-list .topPerformer img{
   width: 100px;
 }
 @media screen  and (min-width:768px){
   .award-list .topPerformer img{
     width: 115px;
+  }
+}
+@media screen  and (min-width:1450px){
+  .award-list .topPerformer img{
+    width: 125px;
   }
 }
 .steamless-integration-with-your-favourite-sofware-main{
@@ -2411,14 +2704,27 @@ nav {
   padding-top: 90px;
 }
 .steamless-integration h2{
-  padding: 0 29px 22px 29px;
+  /* padding: 0 29px 22px 29px; */
   line-height: 30px;
 }
 @media screen  and (min-width:768px){
   .steamless-integration h2{
-    padding: 0 173px 22px 173px;
     line-height: 42px;
     font-size: 32px;
+  }
+}
+@media screen  and (min-width:1440px){
+  .steamless-integration h2{
+    line-height: 50px;
+    font-size: 42px;
+    padding-bottom: 22px;
+  }
+}
+@media screen  and (min-width:1450px){
+  .steamless-integration h2{
+    line-height: 56px;
+    font-size: 46px;
+    padding-bottom: 22px;
   }
 }
 .getting-started-is-easy p{
@@ -2436,8 +2742,28 @@ nav {
     margin: 0 84px;
   }
 }
+@media screen  and (min-width:1024px){
+  .getting-started-is-easy p{
+    margin: 0 199px;
+    line-height: 28px;
+    font-size: 18px;
+  }
+}
+@media screen  and (min-width:1440px){
+  .getting-started-is-easy p{
+    margin: 0 420px;
+    line-height: 32px;
+    font-size: 22px;
+  }
+}
+@media screen  and (min-width:1450px){
+  .getting-started-is-easy p{
+    margin: 0 470px;
+    line-height: 32px;
+    font-size: 24px;
+  }
+}
 .explore-integration button{
-  /* padding: 0 50px; */
   width: 262px;
   font-size: 16px;
   font-weight: 600;
@@ -2447,17 +2773,31 @@ nav {
   margin-bottom: 50px;
   border-radius: 10px;
 }
+.explore-integration button:hover{
+  background-color: var(--Green);
+  cursor: pointer;
+  color: var(--White);
+}
+@media screen  and (min-width:1024px){
+  .explore-integration button{
+    margin-bottom: 100px;
+  }
+}
+@media screen  and (min-width:1450px){
+  .explore-integration button{
+    margin-bottom: 190px;
+    width: 297px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 7px 0;
+
+  }
+}
 .security{
   margin: 0 10px;
   text-align: center;
 }
-@media screen  and (min-width:768px){
-  .security-text p{
-    font-size: 16px;
-    line-height: 22px;
-    padding-bottom: 4px;
-  }
-}
+
 .security-text{
   color: #3079ED;
   font-size: 12px;
@@ -2469,6 +2809,13 @@ nav {
     font-size: 16px;
     line-height: 22px;
     padding-bottom: 4px;
+  }
+}
+@media screen  and (min-width:1450px){
+  .security-text p{
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 6px;
   }
 }
 .enterprise-grade h2{
@@ -2485,6 +2832,22 @@ nav {
     padding-bottom: 22px; 
   }
 }
+@media screen  and (min-width:1440px){
+  .enterprise-grade h2{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    padding-bottom: 22px; 
+  }
+}
+@media screen  and (min-width:1450px){
+  .enterprise-grade h2{
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 50px;
+    padding-bottom: 24px; 
+  }
+}
 .trust-chanty-to-keep p{ 
   color: #637381;
 }
@@ -2492,6 +2855,18 @@ nav {
   .trust-chanty-to-keep p{ 
     color: #637381;
     font-size: 18px;
+  }
+}
+@media screen  and (min-width:1440px){
+  .trust-chanty-to-keep p{ 
+    font-size: 22px;
+    line-height:32px;
+  }
+}
+@media screen  and (min-width:1450px){
+  .trust-chanty-to-keep p{ 
+    font-size: 25px;
+    line-height:32px;
   }
 }
 .logos-and-meaning{
@@ -2505,6 +2880,29 @@ nav {
     column-gap: 70px;
   }
 }
+@media screen  and (min-width:1024px){
+  .logos-and-meaning{
+    margin: 0 50px;
+    padding-top: 40px;
+    display: grid;
+    grid-template-areas: "a b" "c d";
+    column-gap: 70px;
+  }
+}
+@media screen  and (min-width:1440px){
+  .logos-and-meaning{
+    margin: 0 125px;
+    padding-top: 70px;
+    column-gap: 70px;
+  }
+}
+@media screen  and (min-width:1450px){
+  .logos-and-meaning{
+    margin: 0 135px;
+    padding-top: 70px;
+    column-gap: 70px;
+  }
+}
 .own-your-data{
   margin-top: 40px;
 }
@@ -2513,18 +2911,54 @@ nav {
     grid-area: a;
   }
 }
+@media screen  and (min-width:1024px){
+  .own-your-data{
+    display: grid;
+    grid-template-areas: "j k";
+    column-gap: 20px; 
+  }
+  .own-your-data-text{
+    grid-area: k;
+  }
+}
 .own-your-data-logo{
   margin-bottom: 20px;
+}
+@media screen  and (min-width:1024px){
+  .own-your-data-logo{
+    grid-area: j;
+  }
 }
 .own-your-data-text h3{
   padding-bottom: 6px;
   font-size: 18px;
+}
+@media screen  and (min-width:1024px){
+  .own-your-data-text h3{
+    font-size: 24px;
+  } 
+}
+@media screen  and (min-width:1440px){
+  .own-your-data-text h3{
+    font-size: 28px;
+  } 
+}
+@media screen  and (min-width:1450px){
+  .own-your-data-text h3{
+    font-size: 30px;
+  } 
 }
 .own-your-data-text p{
   color: #637381;
   line-height: 26px;
   font-weight: 400;
 }
+@media screen and (min-width:1450px) {
+  .own-your-data-text p{
+    font-size: 18px;
+  } 
+}
+
 .zero-moderation{
   margin-top: 40px;
 }
@@ -2534,17 +2968,53 @@ nav {
     grid-area: b;
   }
 }
+@media screen  and (min-width:1024px){
+  .zero-moderation{
+    display: grid;
+    grid-template-areas: "j k";
+    column-gap: 20px;
+  }
+
+  .zero-moderation-text{
+    grid-area: k;
+  }
+}
 .zero-moderation-logo{
   margin-bottom: 20px;
+}
+@media screen  and (min-width:1024px){
+  .zero-moderation-logo{
+    grid-area: j;
+  }
 }
 .zero-moderation-text h3{
   padding-bottom: 6px;
   font-size: 18px;
 }
+@media screen  and (min-width:1024px){
+  .zero-moderation-text h3{
+    font-size: 24px;
+  } 
+}
+@media screen  and (min-width:1440px){
+  .zero-moderation-text h3{
+    font-size: 28px;
+  } 
+}
+@media screen  and (min-width:1450px){
+  .zero-moderation-text h3{
+    font-size: 30px;
+  } 
+}
 .zero-moderation-text p{
   color: #637381;
   line-height: 26px;
   font-weight: 400;
+}
+@media screen and (min-width:1450px) {
+  .zero-moderation-text p{
+    font-size: 18px;
+  } 
 }
 
 .eu-general-data-protection-regulation{
@@ -2555,6 +3025,19 @@ nav {
     grid-area: c;
   }
 }
+@media screen  and (min-width:1024px){
+  .eu-general-data-protection-regulation{
+    display: grid;
+    grid-template-areas: "j k";
+    column-gap: 20px;
+  }
+  .eu-general-data-protection-regulation-logo{
+    grid-area: j;
+  }
+  .eu-general-data-protection-regulation-text{
+    grid-area: k;
+  }
+}
 .eu-general-data-protection-regulation-logo{
   margin-bottom: 20px;
 }
@@ -2562,17 +3045,52 @@ nav {
   padding-bottom: 6px;
   font-size: 18px;
 }
+@media screen  and (min-width:1024px){
+  .eu-general-data-protection-regulation-text h3{
+    font-size: 24px;
+  } 
+}
+@media screen  and (min-width:1440px){
+  .eu-general-data-protection-regulation-text h3{
+    font-size: 28px;
+  } 
+}
+@media screen  and (min-width:1450px){
+  .eu-general-data-protection-regulation-text h3{
+    font-size: 30px;
+  } 
+}
 .eu-general-data-protection-regulation-text p{
   color: #637381;
   line-height: 26px;
   font-weight: 400;
 }
+@media screen and (min-width:1450px) {
+  .eu-general-data-protection-regulation-text p{
+    font-size: 18px;
+  } 
+}
+
 .encrypted-transactions{
   margin-top: 40px;
 }
 @media screen  and (min-width:768px){
   .encrypted-transactions{
    grid-area: d;
+
+  }
+}
+@media screen  and (min-width:1024px){
+  .encrypted-transactions{
+    display: grid;
+    grid-template-areas: "j k";
+    column-gap: 20px;
+  }
+  .encrypted-transactions-logo{
+    grid-area: j;
+  }
+  .encrypted-transactions-text{
+    grid-area: k;
   }
 }
 .encrypted-transactions-logo{
@@ -2581,6 +3099,21 @@ nav {
 .encrypted-transactions-text h3{
   padding-bottom: 6px;
   font-size: 18px;
+}
+@media screen  and (min-width:1024px){
+  .encrypted-transactions-text h3{
+    font-size: 24px;
+  } 
+}
+@media screen  and (min-width:1440px){
+  .encrypted-transactions-text h3{
+    font-size: 28px;
+  } 
+}
+@media screen  and (min-width:1450px){
+  .encrypted-transactions-text h3{
+    font-size: 30px;
+  } 
 }
 .encrypted-transactions-text p{
   color: #637381;
@@ -2591,6 +3124,12 @@ nav {
 @media screen and (min-width:768px) {
   .encrypted-transactions-text p{
     padding-bottom: 125px;
+  } 
+}
+
+@media screen and (min-width:1450px) {
+  .encrypted-transactions-text p{
+    font-size: 18px;
   } 
 }
 /* testimonial section ends  */
@@ -2615,6 +3154,7 @@ div .pricing {
   font-weight: 700;
   line-height: 30px;
   color: hsl(211, 24%, 17%);
+
 }
 .pricing-text .time {
   font-family: "Inter", sans-serif;
