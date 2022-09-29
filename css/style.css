@@ -3237,9 +3237,11 @@ input:checked + .pricing-toggle:before {
   margin: 0px 17px 35px 17px;
 }
 .business:hover {
+  margin-top: 10px;
+  margin-right: 5px;
   -ms-transform: scale(1.05);
   -webkit-transform: scale(1.05);
-  transform: scale(1.05);
+  transform: scale(1.000005);
   box-shadow: 1px 1px 10px hsl(208, 18%, 48%);
   cursor: pointer;
 }
@@ -3318,9 +3320,11 @@ ul {
   margin: 0px 17px 35px 17px;
 }
 .free:hover {
+  margin-top: 10px;
+  margin-right: 5px;
   -ms-transform: scale(1.05);
   -webkit-transform: scale(1.05);
-  transform: scale(1.05);
+  transform: scale(1.00005);
   box-shadow: 1px 1px 10px hsl(208, 18%, 48%);
   cursor: pointer;
 }
