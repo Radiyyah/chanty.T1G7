@@ -2454,9 +2454,64 @@ nav {
   }
 }
 .profile-container{
-  overflow: hidden;
+  /* overflow: hidden; */
   /* height: 563.56px; */
-  
+  display: flex;
+  position: relative;
+  width: 700%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+@keyframes slider{
+  0% {
+    left:0;
+  }
+  15%{
+left: 0
+  }
+  20%{
+    left:-100%
+  }
+  25%{
+    left: -100%;
+  }
+  30%{
+    left: -200%;
+  }
+  35%{
+    left: -200%;
+  }
+  40%{
+    left: -300%;
+  }
+  45%{
+    left: -300%;
+  }
+  50%{
+    left: -400%;
+  }
+  55%{
+    left: -400%;
+  }
+  60%{
+    left: -500%;
+  }
+  65%{
+    left: -500%;
+  }
+  70%{
+    left: -600%;
+  }
+  75%{
+    left: -600%;
+  }
+  /* 80%{
+    left: -700%;
+  }
+  85%{
+    left: -700%;
+  } */
 }
 .prof{
   position: relative;
@@ -2465,10 +2520,10 @@ nav {
   transform: translate(-50% -50%);
 }
 .cards{
-  position: relative;
-  width: 348px;
+  width: 15%;
+  /* 348px; */
   background-color: black;
-  height: 100%;
+  /* height: 100%; */
   margin: 10px 15px;
 
 }
@@ -2613,14 +2668,24 @@ nav {
 }
 /* .swipper-one, .swipper-two,.swipper-three,.swipper-four,.swipper-five,.swipper-six,.swipper-seven{ */
  
- .pper{ 
+.pper{ 
   display: inline-block;
   height: 2px;
   width: 24px;
   background-color: #a2b9d2;
-  margin: 50px 10px;
+  margin: 50px 7px;
   cursor: pointer;
   transition: 0.4s;
+}
+@media screen and (min-width:768px) {
+  .pper{ 
+    display: inline-block;
+    height: 2px;
+    width: 24px;
+    background-color: #a2b9d2;
+    margin: 50px 10px;
+    cursor: pointer;
+  }
 }
 .pper:hover{
   background-color:var(--Blue);
@@ -2630,6 +2695,8 @@ nav {
  padding-top: 15px; 
 }
 .swipper-pagenation{
+  padding: 0 40px;
+  text-align: center
   /* display: block; */
   /* height: 2px; */
   /* width: 24px; */
@@ -2645,7 +2712,6 @@ nav {
     padding: 0 40px;
     text-align: center
   }
-  
 }
 .award-list ul{
   display: flex;
@@ -2704,15 +2770,16 @@ nav {
   padding-top: 90px;
 }
 .steamless-integration h2{
-  /* padding: 0 29px 22px 29px; */
   line-height: 30px;
 }
+
 @media screen  and (min-width:768px){
   .steamless-integration h2{
     line-height: 42px;
     font-size: 32px;
   }
 }
+
 @media screen  and (min-width:1440px){
   .steamless-integration h2{
     line-height: 50px;
@@ -2790,7 +2857,6 @@ nav {
     font-size: 18px;
     font-weight: 600;
     padding: 7px 0;
-
   }
 }
 .security{
@@ -3691,6 +3757,33 @@ div .sign-up {
     margin: 1%;
   }
 }
+
+
+@media only screen and (min-width: 1450px) {
+  .price {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+  }
+  .pricing-text {
+    padding: 0 10px 0 70px;
+
+  }
+  .pricing-text .pricing {
+    line-height: 30px;
+    font-size: 20px;
+  }
+  .pricing-text h2 {
+    line-height: 60px;
+    font-size: 45px;
+    overflow: hidden;
+  }
+
+}
+
+
+
+
 /* pricing section ends  */
 
 /* MAIN STYLING ENDS */
