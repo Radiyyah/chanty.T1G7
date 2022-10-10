@@ -2454,26 +2454,49 @@ nav {
   }
 }
 .profile-container{
-  overflow: hidden;
-  /* height: 563.56px; */
-  
+  display: flex;
+  position: relative;
+  width: 700%;
+  height: 100%;
 }
 .prof{
   position: relative;
   top: 50%;
-
+  /* left: 50%; */
   transform: translate(-50% -50%);
 }
+.profile-container input[name="r"]{
+  position: absolute;
+  visibility: hidden;
+}
 .cards{
-  position: relative;
-  width: 348px;
-  background-color: black;
-  height: 100%;
-  margin: 10px 15px;
-
+  width: 345px;
+  /* background-color: rgb(73, 73, 73); */
+  margin: 0 15px;
+  transition: 0.9s;
 }
 
-
+#r1:checked ~ .s1{
+  margin-left: 20px;
+}
+#r2:checked ~ .s1{
+  margin-left: -360px;
+}
+#r3:checked ~ .s1{
+  margin-left: -735px;
+}
+#r4:checked ~ .s1{
+  margin-left: -1115px;
+}
+#r5:checked ~ .s1{
+  margin-left: -1485px;
+}
+#r6:checked ~ .s1{
+  margin-left: -1865px;
+}
+#r7:checked ~ .s1{
+  margin-left: -2240px;
+}
 
 .melinda-self-card{
   display:flex;
@@ -2493,7 +2516,6 @@ nav {
   width: 141px;
   padding-top: 50px;
 }
-
 .name p{
   font-size: 18px;
   font-weight: 700;
@@ -2611,25 +2633,39 @@ nav {
 .Tu-Bui-image img{
   width: 64px;
 }
-/* .swipper-one, .swipper-two,.swipper-three,.swipper-four,.swipper-five,.swipper-six,.swipper-seven{ */
  
- .pper{ 
+.pper{ 
   display: inline-block;
   height: 2px;
   width: 24px;
   background-color: #a2b9d2;
-  margin: 50px 10px;
+  margin: 50px 7px;
   cursor: pointer;
   transition: 0.4s;
 }
 .pper:hover{
   background-color:var(--Blue);
 }
+@media screen and (min-width:768px) {
+  .pper{ 
+    display: inline-block;
+    height: 2px;
+    width: 24px;
+    background-color: #a2b9d2;
+    margin: 50px 10px;
+    cursor: pointer;
+  }
+}
 .Tu-Bui-company-logo img{
  width: 141px;
  padding-top: 15px; 
 }
 .swipper-pagenation{
+  padding: 0 40px;
+  text-align: center;
+  position: relative; 
+  cursor: pointer;
+  /* transform: translateX(-50%) */
   /* display: block; */
   /* height: 2px; */
   /* width: 24px; */
@@ -2645,7 +2681,6 @@ nav {
     padding: 0 40px;
     text-align: center
   }
-  
 }
 .award-list ul{
   display: flex;
@@ -2704,15 +2739,16 @@ nav {
   padding-top: 90px;
 }
 .steamless-integration h2{
-  /* padding: 0 29px 22px 29px; */
   line-height: 30px;
 }
+
 @media screen  and (min-width:768px){
   .steamless-integration h2{
     line-height: 42px;
     font-size: 32px;
   }
 }
+
 @media screen  and (min-width:1440px){
   .steamless-integration h2{
     line-height: 50px;
@@ -2790,7 +2826,6 @@ nav {
     font-size: 18px;
     font-weight: 600;
     padding: 7px 0;
-
   }
 }
 .security{
@@ -3691,6 +3726,33 @@ div .sign-up {
     margin: 1%;
   }
 }
+
+
+@media only screen and (min-width: 1450px) {
+  .price {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+  }
+  .pricing-text {
+    padding: 0 10px 0 70px;
+
+  }
+  .pricing-text .pricing {
+    line-height: 30px;
+    font-size: 20px;
+  }
+  .pricing-text h2 {
+    line-height: 60px;
+    font-size: 45px;
+    overflow: hidden;
+  }
+
+}
+
+
+
+
 /* pricing section ends  */
 
 /* MAIN STYLING ENDS */
