@@ -2454,81 +2454,49 @@ nav {
   }
 }
 .profile-container{
-  /* overflow: hidden; */
-  /* height: 563.56px; */
   display: flex;
   position: relative;
   width: 700%;
-  margin: 0;
-  left: 0;
-  animation: 20s slider infinite;
-}
-@keyframes slider{
-  0% {
-    left:0;
-  }
-  15%{
-left: 0
-  }
-  20%{
-    left:-100%
-  }
-  25%{
-    left: -100%;
-  }
-  30%{
-    left: -200%;
-  }
-  35%{
-    left: -200%;
-  }
-  40%{
-    left: -300%;
-  }
-  45%{
-    left: -300%;
-  }
-  50%{
-    left: -400%;
-  }
-  55%{
-    left: -400%;
-  }
-  60%{
-    left: -500%;
-  }
-  65%{
-    left: -500%;
-  }
-  70%{
-    left: -600%;
-  }
-  75%{
-    left: -600%;
-  }
-  /* 80%{
-    left: -700%;
-  }
-  85%{
-    left: -700%;
-  } */
+  height: 100%;
 }
 .prof{
   position: relative;
   top: 50%;
-
+  /* left: 50%; */
   transform: translate(-50% -50%);
 }
+.profile-container input[name="r"]{
+  position: absolute;
+  visibility: hidden;
+}
 .cards{
-  width: 15%;
-  /* 348px; */
-  background-color: black;
-  /* height: 100%; */
-  margin: 10px 15px;
-
+  width: 345px;
+  /* background-color: rgb(73, 73, 73); */
+  margin: 0 15px;
+  transition: 0.9s;
 }
 
-
+#r1:checked ~ .s1{
+  margin-left: 20px;
+}
+#r2:checked ~ .s1{
+  margin-left: -360px;
+}
+#r3:checked ~ .s1{
+  margin-left: -735px;
+}
+#r4:checked ~ .s1{
+  margin-left: -1115px;
+}
+#r5:checked ~ .s1{
+  margin-left: -1485px;
+}
+#r6:checked ~ .s1{
+  margin-left: -1865px;
+}
+#r7:checked ~ .s1{
+  margin-left: -2240px;
+}
 
 .melinda-self-card{
   display:flex;
@@ -2548,7 +2516,6 @@ left: 0
   width: 141px;
   padding-top: 50px;
 }
-
 .name p{
   font-size: 18px;
   font-weight: 700;
@@ -2666,7 +2633,6 @@ left: 0
 .Tu-Bui-image img{
   width: 64px;
 }
-/* .swipper-one, .swipper-two,.swipper-three,.swipper-four,.swipper-five,.swipper-six,.swipper-seven{ */
  
 .pper{ 
   display: inline-block;
@@ -2676,6 +2642,9 @@ left: 0
   margin: 50px 7px;
   cursor: pointer;
   transition: 0.4s;
+}
+.pper:hover{
+  background-color:var(--Blue);
 }
 @media screen and (min-width:768px) {
   .pper{ 
@@ -2687,16 +2656,16 @@ left: 0
     cursor: pointer;
   }
 }
-.pper:hover{
-  background-color:var(--Blue);
-}
 .Tu-Bui-company-logo img{
  width: 141px;
  padding-top: 15px; 
 }
 .swipper-pagenation{
   padding: 0 40px;
-  text-align: center
+  text-align: center;
+  position: relative; 
+  cursor: pointer;
+  /* transform: translateX(-50%) */
   /* display: block; */
   /* height: 2px; */
   /* width: 24px; */
