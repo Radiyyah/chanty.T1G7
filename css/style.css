@@ -2457,7 +2457,6 @@ nav {
   display: flex;
   position: relative;
   width: 700%;
-  background-color: black;
   height: 100%;
 }
 @media screen and (min-width:1440px) {
