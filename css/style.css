@@ -2459,6 +2459,12 @@ nav {
   width: 700%;
   height: 100%;
 }
+@media screen and (min-width:1440px) {
+  .profile-container{
+    background-color:purple;
+    margin: 0 70px;
+  }
+}
 .prof{
   position: relative;
   top: 50%;
@@ -2475,9 +2481,41 @@ nav {
   margin: 0 15px;
   transition: 0.9s;
 }
-
+@media screen and (min-width:768px) {
+  .cards{
+    width: 334px;
+    height: 645px;
+    margin: 0 20px;
+    border: 1px solid  #637381;
+    border-radius: 5px;
+    box-shadow: 1px #637381 ;
+    padding: 36px;
+  }
+}
+@media screen and (min-width:1024px) {
+  .cards{
+    width: 462px;
+    height: 645px;
+    margin: 0 20px;
+    border: 1px solid  #637381;
+    border-radius: 5px;
+    box-shadow: 1px #637381 ;
+    padding: 35px;
+  }
+}
+@media screen and (min-width:1440px) {
+  .cards{
+    width: 590px;
+    height: 645px;
+    margin: 0 20px;
+    border: 1px solid  #637381;
+    border-radius: 5px;
+    box-shadow: 1px #637381 ;
+    padding: 35px;
+  }
+}
 #r1:checked ~ .s1{
-  margin-left: 20px;
+  margin-left: 12px;
 }
 #r2:checked ~ .s1{
   margin-left: -360px;
@@ -2498,17 +2536,70 @@ nav {
   margin-left: -2240px;
 }
 
+@media screen and (min-width:768px) {
+  #r1:checked ~ .s1{
+    margin-left: 30px;
+  }
+  #r2:checked ~ .s1{
+    margin-left: -340px;
+  }
+  #r3:checked ~ .s1{
+    margin-left: -725px;
+  }
+  #r4:checked ~ .s1{
+    margin-left: -1100px;
+  }
+  #r5:checked ~ .s1{
+    margin-left: -1465px;
+  }
+  #r6:checked ~ .s1{
+    margin-left: -1840px;
+  }
+  #r7:checked ~ .s1{
+    margin-left: -1840px;
+  }
+}
+@media screen and (min-width:1024px) {
+  #r1:checked ~ .s1{
+    margin-left: 40px;
+  }
+  #r2:checked ~ .s1{
+    margin-left: -469px;
+  }
+  #r3:checked ~ .s1{
+    margin-left: -984px;
+  }
+  #r4:checked ~ .s1{
+    margin-left: -1480px;
+  }
+  #r5:checked ~ .s1{
+    margin-left: -1980px;
+  }
+  #r6:checked ~ .s1{
+    margin-left: -2480px;
+  }
+  #r7:checked ~ .s1{
+    margin-left:40px;
+  }
+}
 .melinda-self-card{
   display:flex;
   flex-direction: column-reverse;
   text-align: center;  
-  /* height:568.88px; */
+}
+@media screen and (min-width:768px) {
+  .melinda-self-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
 .melinda-text{
   font-size:18px ;
   line-height: 32px;
   color: #637381;
 }
+
 .melinda-image img{
   width: 64px;
 }
@@ -2532,8 +2623,15 @@ nav {
   display:flex;
   flex-direction: column-reverse;
   text-align: center;
+  margin-bottom: 100px;
 }
-
+@media screen and (min-width:768px) {
+  .fabian-krieger-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
 .fabian-krieger-text p{
   font-size:18px ;
   line-height: 32px;
@@ -2552,6 +2650,14 @@ nav {
   display:flex;
   flex-direction: column-reverse;
   text-align: center;
+  margin-bottom: 35px;
+}
+@media screen and (min-width:768px) {
+  .jacob-hopson-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
 .jacob-hopson-text{
   font-size:18px ;
@@ -2569,6 +2675,14 @@ nav {
   display:flex;
   flex-direction: column-reverse;
   text-align: center;
+  margin-bottom: 120px;
+}
+@media screen and (min-width:768px) {
+  .julia-dadds-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
 .julia-dadds-text p{
   font-size:18px ;
@@ -2587,6 +2701,14 @@ nav {
   display:flex;
   flex-direction: column-reverse;
   text-align: center;
+  margin-bottom: 20px;
+}
+@media screen and (min-width:768px) {
+  .Amilcar-De-Carvaralho-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
 .Amilcar-De-Carvaralho-text p{
   font-size:18px ;
@@ -2598,7 +2720,7 @@ nav {
 }
 .Amilcar-De-Carvaralho-company-logo img{
  width: 140px;
- padding-top: 45px; 
+ padding: 12px 0; 
 }
 
 .David-oragui-card{
@@ -2606,6 +2728,14 @@ nav {
   flex-direction: column-reverse;
   text-align: center;
   height: 568;
+  margin-bottom: 105px;
+}
+@media screen and (min-width:768px) {
+  .David-oragui-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
 .David-oragui-text{
   font-size:18px ;
@@ -2624,6 +2754,14 @@ nav {
   display:flex;
   flex-direction: column-reverse;
   text-align: center;
+  margin-bottom: 100px;
+}
+@media screen and (min-width:768px) {
+  .Tu-Bui-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
 .Tu-Bui-text p{
   font-size:18px ;
@@ -2633,7 +2771,10 @@ nav {
 .Tu-Bui-image img{
   width: 64px;
 }
- 
+.Tu-Bui-company-logo img{
+  width: 141px;
+  padding-top: 58px; 
+ }
 .pper{ 
   display: inline-block;
   height: 2px;
@@ -2656,25 +2797,17 @@ nav {
     cursor: pointer;
   }
 }
-.Tu-Bui-company-logo img{
- width: 141px;
- padding-top: 15px; 
-}
 .swipper-pagenation{
-  padding: 0 40px;
+  padding: 0 ;
   text-align: center;
   position: relative; 
   cursor: pointer;
-  /* transform: translateX(-50%) */
-  /* display: block; */
-  /* height: 2px; */
-  /* width: 24px; */
-  /* background-color: blue; */
-  /* position: relative; */
-  /* padding: 0 15px; */
-  /* position: relative; */
-  /* left: 15px; */
-  /* transform: translateX(-1%); */
+}
+@media screen  and (min-width:375px){
+  .swipper-pagenation{
+    padding: 0 40px;
+    text-align: center
+  }
 }
 @media screen  and (min-width:768px){
   .swipper-pagenation{
