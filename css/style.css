@@ -570,7 +570,7 @@ nav {
 @media screen and (min-width: 1024px) {
   .join-chanty {
     line-height: 30px;
-    font-size: 20px;
+    font-size: 20.51px;
   }
   .join-chanty span {
     white-space: nowrap;
@@ -578,7 +578,7 @@ nav {
 }
 @media screen and (min-width: 1440px) {
   .join-chanty {
-    line-height: 40px;
+    line-height: 36px;
     font-size: 26px;
     white-space: nowrap;
     font-weight: 300;
@@ -587,7 +587,7 @@ nav {
     white-space: nowrap;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1450px) {
   .join-chanty {
     line-height: 40px;
     font-size: 29px;
@@ -2461,7 +2461,6 @@ nav {
 }
 @media screen and (min-width:1440px) {
   .profile-container{
-    background-color:purple;
     margin: 0 70px;
   }
 }
@@ -2577,6 +2576,29 @@ nav {
   }
   #r6:checked ~ .s1{
     margin-left: -2480px;
+  }
+  #r7:checked ~ .s1{
+    margin-left:40px;
+  }
+}
+@media screen and (min-width:1440px) {
+  #r1:checked ~ .s1{
+    margin-left: 40px;
+  }
+  #r2:checked ~ .s1{
+    margin-left: -599px;
+  }
+  #r3:checked ~ .s1{
+    margin-left: -1220px;
+  }
+  #r4:checked ~ .s1{
+    margin-left: -1850px;
+  }
+  #r5:checked ~ .s1{
+    margin-left: -2480px;
+  }
+  #r6:checked ~ .s1{
+    margin-left: -3110px;
   }
   #r7:checked ~ .s1{
     margin-left:40px;
