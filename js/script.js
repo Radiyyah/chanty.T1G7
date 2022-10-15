@@ -17,16 +17,6 @@ if ((i = container)) {
   addEventListener(click, changeContainer);
 }
 
-// document.slide.src = container[i];
-
-//     if(i < container.length -1){
-//         i++;
-//     }else{
-//         i = 0;
-//     }
-
-//     setTimeout("changeContainer()", time);
-
 // HEADER JS STARTS
 // NAV BAR STARTS
 // icon-section BY SAMUEL
@@ -145,7 +135,6 @@ function comangledowm() {
     icon.classList.add("fa-angle-down");
   }
 }
-
 // opens dropdown
 function myshowresource() {
   let element = document.getElementById("footer-resource-dropdown");
@@ -163,5 +152,4 @@ function resangledowm() {
     icon.classList.add("fa-angle-down");
   }
 }
-
 // footer section ends
