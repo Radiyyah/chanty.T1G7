@@ -2062,7 +2062,6 @@ nav {
 .prof{
   position: relative;
   top: 50%;
-  /* left: 50%; */
   transform: translate(-50% -50%);
 }
 .profile-container input[name="r"]{
@@ -2071,7 +2070,6 @@ nav {
 }
 .cards{
   width: 345px;
-  /* background-color: rgb(73, 73, 73); */
   margin: 0 15px;
   transition: 0.9s;
 }
